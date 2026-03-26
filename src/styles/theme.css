@@ -1,0 +1,125 @@
+/**
+ * Theme Variables - Alejardín 🌸
+*/
+
+:root {
+  /* === Colors base === */
+  --background: #fff9fb;
+  --foreground: #2d2d2d;
+  --background-alt: #ffffff;
+
+  /* === Main Pastel Palette === */
+  --soft-pink: #ffe4e9;
+  --soft-pink-light: #fff0f3;
+  --soft-pink-dark: #ffd1db;
+
+  --lavender: #e8d5f2;
+  --lavender-light: #f3e8f8;
+  --lavender-dark: #dcc4e8;
+
+  --soft-green: #d4f1d4;
+  --soft-green-light: #e5f7e5;
+  --soft-green-dark: #c3e8c3;
+
+  --peach: #ffd6ba;
+  --peach-light: #ffe8d4;
+  --peach-dark: #ffc7a3;
+
+  --sky-soft: #e3f2fd;
+  --sky-soft-light: #f1f8ff;
+  --sky-soft-dark: #d1e7fa;
+
+  /* === State Colors === */
+  --success: var(--soft-green);
+  --info: var(--sky-soft);
+  --warning: var(--peach);
+  --error: #ffcdd2;
+
+  /* === Text Colors === */
+  --text-primary: #2d2d2d;
+  --text-secondary: #5a5a5a;
+  --text-muted: #8b8b8b;
+  --text-light: #c0c0c0;
+
+  /* === Gradients === */
+  --gradient-pink-purple: linear-gradient(
+    135deg,
+    var(--soft-pink) 0%,
+    var(--lavender) 100%
+  );
+  --gradient-pink-peach: linear-gradient(
+    135deg,
+    var(--soft-pink) 0%,
+    var(--peach) 100%
+  );
+  --gradient-green-sky: linear-gradient(
+    135deg,
+    var(--soft-green) 0%,
+    var(--sky-soft) 100%
+  );
+  --gradient-rainbow: linear-gradient(
+    135deg,
+    var(--soft-pink) 0%,
+    var(--lavender) 25%,
+    var(--sky-soft) 50%,
+    var(--soft-green) 75%,
+    var(--peach) 100%
+  );
+
+  /* === Shadows === */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --shadow-md:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --shadow-lg:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  --shadow-xl:
+    0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  --shadow-pink: 0 10px 25px -5px rgba(255, 228, 233, 0.5);
+  --shadow-lavender: 0 10px 25px -5px rgba(232, 213, 242, 0.5);
+
+  /* === Borders === */
+  --border-radius-sm: 0.375rem;
+  --border-radius: 0.5rem;
+  --border-radius-md: 0.75rem;
+  --border-radius-lg: 1rem;
+  --border-radius-xl: 1.5rem;
+  --border-radius-full: 9999px;
+
+  /* === Spacing === */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+
+  /* === Transitions === */
+  --transition-fast: 150ms ease-in-out;
+  --transition: 300ms ease-in-out;
+  --transition-slow: 500ms ease-in-out;
+
+  /* === Z-Index === */
+  --z-base: 1;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-fixed: 300;
+  --z-modal: 400;
+  --z-popover: 500;
+  --z-tooltip: 600;
+}
+
+/* === Font Families === */
+:root {
+  --font-primary:
+    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-handwriting: "Dancing Script", cursive;
+}
+
+/* === Global Application === */
+body {
+  color: var(--text-primary);
+  background: var(--background);
+  font-family: var(--font-primary);
+}

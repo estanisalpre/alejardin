@@ -101,6 +101,7 @@ export function FlowerCard({ flower, onClose }: FlowerCardProps) {
                 src={flower.imagenUrl!}
                 alt={flower.nombre}
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="object-cover"
                 onError={() => setImageError(true)}
                 priority
@@ -140,7 +141,7 @@ export function FlowerCard({ flower, onClose }: FlowerCardProps) {
             transition={{ delay: 0.5 }}
           >
             <p className="text-lg text-gray-700 text-center italic leading-relaxed">
-              "{flower.mensaje}"
+              &ldquo;{flower.mensaje}&rdquo;
             </p>
           </motion.div>
 

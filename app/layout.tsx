@@ -1,5 +1,12 @@
-import type { Metadata } from "next";
-import "./globals.css";
+import type { Metadata, Viewport } from "next";
+import "@/app/globals.css";
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  themeColor: "#FFE4E9",
+};
 
 export const metadata: Metadata = {
   title: "Alejardín 🌸 - Una flor nueva cada día",
@@ -18,8 +25,6 @@ export const metadata: Metadata = {
   creator: "Alejardín",
   publisher: "Alejardín",
   manifest: "/manifest.json",
-  themeColor: "#FFE4E9",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=5",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
@@ -52,8 +57,10 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/icon-192.png" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/manifest.json" />
         <link
           href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
           rel="stylesheet"

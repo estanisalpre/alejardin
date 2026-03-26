@@ -10,7 +10,6 @@ export function Navbar({ onLogoClick }: NavbarProps) {
   const [showNavbar, setShowNavbar] = useState(false);
 
   useEffect(() => {
-    // Detectar si la app ya está instalada
     if (window.matchMedia("(display-mode: standalone)").matches) {
       setIsInstalled(true);
     }
@@ -29,7 +28,6 @@ export function Navbar({ onLogoClick }: NavbarProps) {
       setDeferredPrompt(null);
     });
 
-    // Mostrar navbar al hacer scroll
     const handleScroll = () => {
       if (window.scrollY > 100) {
         setShowNavbar(true);
@@ -48,7 +46,6 @@ export function Navbar({ onLogoClick }: NavbarProps) {
 
   const handleInstallClick = async () => {
     if (!deferredPrompt) {
-      // Fallback para navegadores que no soportan beforeinstallprompt
       alert(
         'Para instalar esta app:\n\n• En Chrome/Edge: Usa el menú (⋮) > "Instalar Alejardín"\n• En iOS Safari: Toca el botón compartir y selecciona "Agregar a pantalla de inicio"',
       );
@@ -64,11 +61,9 @@ export function Navbar({ onLogoClick }: NavbarProps) {
   };
 
   const scrollToTop = () => {
-    // Si hay un callback personalizado, usarlo
     if (onLogoClick) {
       onLogoClick();
     } else {
-      // Fallback a scroll to top
       window.scrollTo({
         top: 0,
         behavior: "smooth",

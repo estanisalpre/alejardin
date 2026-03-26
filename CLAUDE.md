@@ -111,7 +111,7 @@ El sistema no asigna flores secuencialmente. En su lugar:
 ```typescript
 // Ejemplo localStorage:
 {
-  "mi-jardin-day-flowers": {
+  "alejardin-day-flowers": {
     47: 12,   // Día 47 → Flor ID 12
     203: 5,   // Día 203 → Flor ID 5
     12: 38    // Día 12 → Flor ID 38

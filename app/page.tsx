@@ -1,71 +1,86 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { FlowerCard } from "@/components/FlowerCard";
-import { GardenGrid } from "@/components/GardenGrid";
-import { Button } from "@/components/Button";
-import { ScrollToTop } from "@/components/ScrollToTop";
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
-import { PWAInstaller } from "@/components/PWAInstaller";
+import {
+  FlowerCard,
+  GardenGrid,
+  Button,
+  ScrollToTop,
+  Navbar,
+  Footer,
+  PWAInstaller,
+  LoadingScreen,
+  MilestonesView,
+} from "@/components";
 import { flowers } from "@/data/flowers";
-import { getDayFlowerMap, saveFlowerOpened, canOpenToday } from "@/lib/storage";
+import {
+  getDayFlowerMap,
+  saveFlowerOpened,
+  canOpenToday,
+  getMilestones,
+  checkAndUnlockMilestones,
+} from "@/lib/storage";
 import type { Flower, DayFlowerMap } from "@/interfaces";
 
 export default function Home() {
   const [currentFlower, setCurrentFlower] = useState<Flower | null>(null);
   const [dayFlowerMap, setDayFlowerMap] = useState<DayFlowerMap>({});
   const [showGarden, setShowGarden] = useState(false);
+  const [showMilestones, setShowMilestones] = useState(false);
   const [message, setMessage] = useState("");
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Load saved data
+    const startTime = Date.now();
+    const minLoadingTime = 3000; // 3 segundos mínimo
+
     const dayMap = getDayFlowerMap();
     setDayFlowerMap(dayMap);
-    setIsLoading(false);
+
+    // Esperar al menos 3 segundos antes de ocultar el loading
+    const elapsedTime = Date.now() - startTime;
+    const remainingTime = Math.max(0, minLoadingTime - elapsedTime);
+
+    setTimeout(() => {
+      setIsLoading(false);
+    }, remainingTime);
   }, []);
 
   const openDailyFlower = () => {
     if (!canOpenToday()) {
       setMessage("Ya descubriste la flor de hoy 🌷 vuelve mañana");
-      setTimeout(() => setMessage(""), 3000);
+      setTimeout(() => setMessage(""), 5000);
       return;
     }
 
-    // Get unlocked flower IDs
     const unlockedIds = Object.values(dayFlowerMap);
-
-    // Get random flower from remaining ones
     const availableFlowers = flowers.filter((f) => !unlockedIds.includes(f.id));
 
     if (availableFlowers.length === 0) {
       setMessage("¡Has descubierto todas las flores! 🎉");
+      setTimeout(() => setMessage(""), 5000);
       return;
     }
 
     const randomFlower =
       availableFlowers[Math.floor(Math.random() * availableFlowers.length)];
 
-    // Save to localStorage and update state
     saveFlowerOpened(randomFlower.id);
     const newDayMap = getDayFlowerMap();
     setDayFlowerMap(newDayMap);
     setCurrentFlower(randomFlower);
 
-    // Check milestones
+    // Verificar si se desbloqueó un milestone
     const totalUnlocked = Object.keys(newDayMap).length;
-    if (totalUnlocked === 7) {
-      setTimeout(() => setMessage("¡Primera semana completa! 🌟"), 1000);
-    } else if (totalUnlocked === 30) {
-      setTimeout(() => setMessage("¡Un mes de flores! 🌺"), 1000);
-    } else if (totalUnlocked === 100) {
-      setTimeout(() => setMessage("¡100 flores descubiertas! 🎊"), 1000);
-    } else if (totalUnlocked === 365) {
-      setTimeout(
-        () => setMessage("¡Año completo! Tu jardín está en flor 🌸🌼🌻"),
-        1000,
-      );
+    const unlockedMilestone = checkAndUnlockMilestones(totalUnlocked);
+
+    if (unlockedMilestone) {
+      setTimeout(() => {
+        setMessage(
+          `${unlockedMilestone.emoji} ${unlockedMilestone.title}: ${unlockedMilestone.description}`,
+        );
+        setTimeout(() => setMessage(""), 5000);
+      }, 1000);
     }
   };
 
@@ -75,6 +90,7 @@ export default function Home() {
 
   const goToHome = () => {
     setShowGarden(false);
+    setShowMilestones(false);
     window.scrollTo({
       top: 0,
       behavior: "smooth",
@@ -82,11 +98,7 @@ export default function Home() {
   };
 
   if (isLoading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-soft-pink via-lavender to-sky-soft">
-        <div className="text-2xl text-gray-600">Cargando...</div>
-      </div>
-    );
+    return <LoadingScreen />;
   }
 
   return (
@@ -124,10 +136,14 @@ export default function Home() {
           )}
         </header>
 
-        {/* Message */}
+        {/* Message - Notificación mejorada full width */}
         {message && (
-          <div className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 bg-white px-6 py-3 rounded-full shadow-lg animate-scale-in">
-            <p className="text-gray-700 font-medium">{message}</p>
+          <div className="fixed top-4 left-4 right-4 z-50 animate-scale-in">
+            <div className="max-w-2xl mx-auto bg-gradient-to-r from-pink-50 via-purple-50 to-blue-50 border-2 border-pink-300 px-6 py-4 rounded-2xl shadow-2xl backdrop-blur-sm">
+              <p className="text-gray-800 font-semibold text-center text-sm md:text-base">
+                {message}
+              </p>
+            </div>
           </div>
         )}
 
@@ -137,21 +153,46 @@ export default function Home() {
         )}
 
         {/* Main Content */}
-        {!showGarden ? (
+        {!showGarden && !showMilestones ? (
           <div className="text-center space-y-8 animate-scale-in">
             <div className="bg-white/60 backdrop-blur-sm rounded-3xl p-12 shadow-xl max-w-md mx-auto">
               <div className="text-6xl mb-6 animate-float">🌸</div>
               <Button onClick={openDailyFlower} variant="primary">
                 Abrir flor del día
               </Button>
-              <div className="mt-6">
+              <div className="mt-6 space-y-3">
                 <Button onClick={() => setShowGarden(true)} variant="secondary">
                   Visitar jardín ({Object.keys(dayFlowerMap).length} flores)
+                </Button>
+                <Button
+                  onClick={() => setShowMilestones(true)}
+                  variant="secondary"
+                >
+                  Ver logros 🏆
                 </Button>
               </div>
             </div>
 
             {/* Footer en página principal */}
+            <Footer />
+          </div>
+        ) : showMilestones ? (
+          <div className="animate-fade-in">
+            <div className="flex justify-between items-center mb-8">
+              <h2 className="text-3xl font-bold text-gray-800">Mis Logros</h2>
+              <Button
+                onClick={() => setShowMilestones(false)}
+                variant="secondary"
+              >
+                ← Volver
+              </Button>
+            </div>
+            <MilestonesView
+              milestones={getMilestones()}
+              currentFlowers={Object.keys(dayFlowerMap).length}
+            />
+
+            {/* Footer en milestones */}
             <Footer />
           </div>
         ) : (

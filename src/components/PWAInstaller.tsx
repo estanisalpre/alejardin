@@ -7,11 +7,11 @@ export function PWAInstaller() {
     if ("serviceWorker" in navigator) {
       navigator.serviceWorker
         .register("/sw.js")
-        .then((registration) => {
-          console.log("Service Worker registrado:", registration);
+        .then(() => {
+          // Service Worker registered successfully
         })
         .catch((error) => {
-          console.log("Error al registrar Service Worker:", error);
+          console.log("Error registering Service Worker:", error);
         });
     }
   }, []);
