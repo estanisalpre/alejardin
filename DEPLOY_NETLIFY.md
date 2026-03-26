@@ -19,6 +19,7 @@ git push origin main
 ```
 
 Si no tienes repo aún:
+
 1. Ve a [github.com](https://github.com) → New repository
 2. Nombre: `alejardin` (o el que quieras)
 3. Visibility: Private (recomendado)
@@ -63,6 +64,7 @@ git push -u origin main
 Por defecto: `https://random-name-123456.netlify.app`
 
 Para personalizar:
+
 1. Site settings → **"Change site name"**
 2. Escribe: `alejardin`
 3. Tu URL: **`https://alejardin.netlify.app`** ✨
@@ -126,6 +128,7 @@ git push -u origin dev
 **Causa**: Error en el build o dependencias faltantes
 
 **Solución**:
+
 ```bash
 # 1. Verificar build local
 pnpm build
@@ -144,11 +147,13 @@ git push
 **Causa**: Next.js Image Optimization no funciona en Netlify free tier
 
 **Solución**: Ya incluida en el proyecto ✅
+
 - `next.config.ts` tiene `images.unoptimized: true`
 - Las imágenes se sirven directamente desde `/assets/flowers/`
 - No requiere procesamiento en servidor
 
 Si ves error 502 en imágenes:
+
 ```bash
 # Verificar que next.config.ts tiene:
 images: {
@@ -165,11 +170,13 @@ git push
 ### ❌ Problema: PWA no se ofrece para instalar
 
 **Causas posibles**:
+
 1. Sitio no es HTTPS (Netlify da HTTPS gratis ✅)
 2. Manifest.json no accesible
 3. Service Worker no registrado
 
 **Soluciones**:
+
 ```bash
 # 1. Verificar manifest accesible
 # https://alejardin.netlify.app/manifest.json
@@ -186,10 +193,12 @@ git push
 ### ❌ Problema: PWA no instala en iPhone
 
 **Causas**:
+
 1. No usar Safari (debe ser Safari, no Chrome)
 2. Permisos de iOS desactivados
 
 **Soluciones**:
+
 ```
 1. Usar Safari obligatoriamente
 2. iOS Settings → Safari → Advanced → Experimental Features
@@ -201,6 +210,7 @@ git push
 ### ❌ Problema: Cambios no reflejan en celular
 
 **Solución**:
+
 ```bash
 # Opción A: Esperar 24h (Service Worker se actualiza automáticamente)
 
@@ -253,20 +263,20 @@ images: {
 ✅ **Deploy Previews** en PRs  
 ✅ **Logs detallados** de builds  
 ✅ **100 GB bandwidth/mes** gratis  
-✅ **Imágenes optimizadas** (pre-optimizadas en build)  
+✅ **Imágenes optimizadas** (pre-optimizadas en build)
 
 ---
 
 ## 📊 Comparación Netlify vs Vercel
 
-| Feature | Netlify ✅ | Vercel |
-|---------|-----------|--------|
-| **Plan Gratis** | 100 GB/mes | 100 GB/mes |
-| **Builds** | 300 min/mes | Unlimited |
-| **Next.js** | ✅ Con plugin | ✅ Nativo |
-| **Image Opt** | ⚠️ No (free) | ✅ Sí |
-| **PWA** | ✅ Perfecto | ✅ Perfecto |
-| **HTTPS** | ✅ Auto | ✅ Auto |
+| Feature         | Netlify ✅    | Vercel      |
+| --------------- | ------------- | ----------- |
+| **Plan Gratis** | 100 GB/mes    | 100 GB/mes  |
+| **Builds**      | 300 min/mes   | Unlimited   |
+| **Next.js**     | ✅ Con plugin | ✅ Nativo   |
+| **Image Opt**   | ⚠️ No (free)  | ✅ Sí       |
+| **PWA**         | ✅ Perfecto   | ✅ Perfecto |
+| **HTTPS**       | ✅ Auto       | ✅ Auto     |
 
 **Para Alejardín**: Ambos funcionan perfecto. Netlify seleccionado porque el usuario no tiene cuenta de Vercel.
 
