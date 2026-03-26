@@ -1,12 +1,12 @@
-/* === Variables de Tema === */
+/* === Theme === */
 @import "../src/styles/theme.css";
 
-/* === Directivas Tailwind CSS === */
+/* === Tailwind Directives === */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* === Utilidades Personalizadas === */
+/* === Custom Utilities === */
 @layer utilities {
   /* Text Utilities */
   .text-balance {
