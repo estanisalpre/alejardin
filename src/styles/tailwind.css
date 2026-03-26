@@ -1,14 +1,9 @@
-/* === Variables de Tema === */
-@import "../src/styles/theme.css";
+/**
+ * Tailwind Utilities - Alejardín 🌸
+ */
 
-/* === Directivas Tailwind CSS === */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* === Utilidades Personalizadas === */
 @layer utilities {
-  /* Text Utilities */
+  /* === Text Utilities === */
   .text-balance {
     text-wrap: balance;
   }
@@ -27,7 +22,7 @@
     background-clip: text;
   }
 
-  /* Background Utilities */
+  /* === Background Utilities === */
   .bg-gradient-pink-purple {
     background: var(--gradient-pink-purple);
   }
@@ -48,7 +43,7 @@
     background: var(--background);
   }
 
-  /* Shadow Utilities */
+  /* === Shadow Utilities === */
   .shadow-pink {
     box-shadow: var(--shadow-pink);
   }
@@ -57,7 +52,7 @@
     box-shadow: var(--shadow-lavender);
   }
 
-  /* Border Utilities */
+  /* === Border Utilities === */
   .border-pastel {
     border: 1px solid rgba(0, 0, 0, 0.05);
   }
@@ -70,7 +65,7 @@
     border-color: var(--lavender);
   }
 
-  /* Layout Utilities */
+  /* === Layout Utilities === */
   .center {
     display: flex;
     align-items: center;
@@ -95,7 +90,7 @@
     flex-direction: column;
   }
 
-  /* Card Utilities */
+  /* === Card Utilities === */
   .card {
     background: var(--background-alt);
     border-radius: var(--border-radius-lg);
@@ -119,7 +114,7 @@
     border: 1px solid rgba(255, 228, 233, 0.3);
   }
 
-  /* Button Utilities */
+  /* === Button Utilities === */
   .btn {
     display: inline-flex;
     align-items: center;
@@ -154,7 +149,7 @@
     background: var(--soft-pink-light);
   }
 
-  /* Animation Utilities */
+  /* === Animation Utilities === */
   .animate-slide-up {
     animation: slideUp 0.5s ease-out;
   }
@@ -183,7 +178,7 @@
     transform: scale(1.05);
   }
 
-  /* Glass Effect */
+  /* === Glass Effect === */
   .glass {
     background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(10px);
@@ -198,7 +193,7 @@
     border: 1px solid rgba(255, 228, 233, 0.3);
   }
 
-  /* Scroll Utilities */
+  /* === Scroll Utilities === */
   .scroll-smooth {
     scroll-behavior: smooth;
   }
@@ -212,7 +207,7 @@
     display: none;
   }
 
-  /* Flower-specific Utilities */
+  /* === Flower-specific Utilities === */
   .flower-container {
     position: relative;
     display: flex;
@@ -239,7 +234,7 @@
     box-shadow: var(--shadow-pink);
   }
 
-  /* Responsive Grid */
+  /* === Responsive Grid === */
   .grid-flowers {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
