@@ -1,0 +1,2207 @@
+[
+  {
+    "id": 51,
+    "nombre": "Narciso",
+    "imagen": "💐",
+    "mensaje": "Brilla como la narciso, siempre buscando la luz",
+    "significado": "Pureza y renovación"
+  },
+  {
+    "id": 52,
+    "nombre": "Alyssum saxátil",
+    "imagen": "🌻",
+    "mensaje": "Delicada y efímera, como esta alyssum saxátil, cada momento es precioso",
+    "significado": "Agradecimiento sincero"
+  },
+  {
+    "id": 53,
+    "nombre": "Amapola",
+    "imagen": "🌷",
+    "mensaje": "La amapola abre sus pétalos al amor incondicional",
+    "significado": "Fortaleza interior"
+  },
+  {
+    "id": 54,
+    "nombre": "Alhelí",
+    "imagen": "🌻",
+    "mensaje": "Cada pétalo de alhelí guarda un deseo de felicidad para ti",
+    "significado": "Armonía y equilibrio"
+  },
+  {
+    "id": 55,
+    "nombre": "Aster",
+    "imagen": "💛",
+    "mensaje": "Abundante en belleza, como esta aster, eres prosperidad",
+    "significado": "Admiración y perfección"
+  },
+  {
+    "id": 56,
+    "nombre": "Crisantemo",
+    "imagen": "🩵",
+    "mensaje": "Fuerte y resiliente, la crisantemo enfrenta cada desafío",
+    "significado": "Ternura y dulzura"
+  },
+  {
+    "id": 57,
+    "nombre": "Geranio perfumado",
+    "imagen": "💙",
+    "mensaje": "Como la geranio perfumado, tu alegría es contagiosa y luminosa",
+    "significado": "Protección y seguridad"
+  },
+  {
+    "id": 58,
+    "nombre": "Alpinia",
+    "imagen": "💚",
+    "mensaje": "Rara y extraordinaria, la alpinia es como un tesoro único",
+    "significado": "Amor y pasión"
+  },
+  {
+    "id": 59,
+    "nombre": "Sparaxis",
+    "imagen": "💛",
+    "mensaje": "Suave y delicada, como la sparaxis en la mañana",
+    "significado": "Belleza fugaz"
+  },
+  {
+    "id": 60,
+    "nombre": "Anémona",
+    "imagen": "💙",
+    "mensaje": "Abundante en belleza, como esta anémona, eres prosperidad",
+    "significado": "Devoción y tranquilidad"
+  },
+  {
+    "id": 61,
+    "nombre": "Bromelia",
+    "imagen": "❤️",
+    "mensaje": "Rara y extraordinaria, la bromelia es como un tesoro único",
+    "significado": "Amor secreto"
+  },
+  {
+    "id": 62,
+    "nombre": "Botón de oro naranja",
+    "imagen": "🩵",
+    "mensaje": "Como la botón de oro naranja, cada día es una nueva oportunidad",
+    "significado": "Amor perfecto"
+  },
+  {
+    "id": 63,
+    "nombre": "Peonía roja",
+    "imagen": "💛",
+    "mensaje": "La peonía roja susurra secretos de amor eterno",
+    "significado": "Agradecimiento sincero"
+  },
+  {
+    "id": 64,
+    "nombre": "Pasionaria mediterránea",
+    "imagen": "🌷",
+    "mensaje": "La pasionaria mediterránea te recuerda que resurges hermosa desde lo profundo",
+    "significado": "Confianza y sinceridad"
+  },
+  {
+    "id": 65,
+    "nombre": "Pensamiento morada",
+    "imagen": "🪷",
+    "mensaje": "Suave y delicada, como la pensamiento morada en la mañana",
+    "significado": "Transformación personal"
+  },
+  {
+    "id": 66,
+    "nombre": "Lilas",
+    "imagen": "🌻",
+    "mensaje": "La lilas te recuerda que resurges hermosa desde lo profundo",
+    "significado": "Creatividad e inspiración"
+  },
+  {
+    "id": 67,
+    "nombre": "Magnolia",
+    "imagen": "🌺",
+    "mensaje": "La dulzura de la magnolia perfuma cada rincón del corazón",
+    "significado": "Alegría y felicidad"
+  },
+  {
+    "id": 68,
+    "nombre": "Espuela de caballero naranja",
+    "imagen": "💚",
+    "mensaje": "Suave y delicada, como la espuela de caballero naranja en la mañana",
+    "significado": "Cuidado y fragilidad"
+  },
+  {
+    "id": 69,
+    "nombre": "Canna lila",
+    "imagen": "🌷",
+    "mensaje": "La canna lila danza al viento, libre y hermosa",
+    "significado": "Renacimiento espiritual"
+  },
+  {
+    "id": 70,
+    "nombre": "Impatiens púrpura",
+    "imagen": "💛",
+    "mensaje": "Elegante y majestuosa, la impatiens púrpura ilumina cada espacio",
+    "significado": "Lujo y belleza exótica"
+  },
+  {
+    "id": 71,
+    "nombre": "Azalea",
+    "imagen": "🩵",
+    "mensaje": "La belleza de la azalea trasciende palabras",
+    "significado": "Amor secreto"
+  },
+  {
+    "id": 72,
+    "nombre": "Jacinto",
+    "imagen": "🩵",
+    "mensaje": "Abundante en belleza, como esta jacinto, eres prosperidad",
+    "significado": "Confianza y sinceridad"
+  },
+  {
+    "id": 73,
+    "nombre": "Madreselva carmesí",
+    "imagen": "❤️",
+    "mensaje": "Como la madreselva carmesí, cada día es una nueva oportunidad",
+    "significado": "Belleza fugaz"
+  },
+  {
+    "id": 74,
+    "nombre": "Mimosa salmón",
+    "imagen": "💐",
+    "mensaje": "Como esta mimosa salmón, tu luz nunca se apaga",
+    "significado": "Armonía y equilibrio"
+  },
+  {
+    "id": 75,
+    "nombre": "Clavel fucsia",
+    "imagen": "💚",
+    "mensaje": "La clavel fucsia susurra secretos de amor eterno",
+    "significado": "Belleza fugaz"
+  },
+  {
+    "id": 76,
+    "nombre": "Saxífraga",
+    "imagen": "🌷",
+    "mensaje": "La saxífraga florece con gratitud en mi vida",
+    "significado": "Cuidado y fragilidad"
+  },
+  {
+    "id": 77,
+    "nombre": "Peonía",
+    "imagen": "🏵️",
+    "mensaje": "Como esta peonía, tu belleza y fuerza crecen cada día",
+    "significado": "Amor dulce"
+  },
+  {
+    "id": 78,
+    "nombre": "Dalia",
+    "imagen": "💛",
+    "mensaje": "Suave y delicada, como la dalia en la mañana",
+    "significado": "Prosperidad y abundancia"
+  },
+  {
+    "id": 79,
+    "nombre": "Clavel roja",
+    "imagen": "💚",
+    "mensaje": "Delicada y efímera, como esta clavel roja, cada momento es precioso",
+    "significado": "Gratitud y aprecio"
+  },
+  {
+    "id": 80,
+    "nombre": "Pensamiento rosa",
+    "imagen": "🌺",
+    "mensaje": "Delicada y efímera, como esta pensamiento rosa, cada momento es precioso",
+    "significado": "Fortaleza interior"
+  },
+  {
+    "id": 81,
+    "nombre": "Cerastium salmón",
+    "imagen": "🌻",
+    "mensaje": "Brilla como la cerastium salmón, siempre buscando la luz",
+    "significado": "Belleza delicada"
+  },
+  {
+    "id": 82,
+    "nombre": "Iris",
+    "imagen": "🌻",
+    "mensaje": "La iris trae esperanza y nuevos comienzos",
+    "significado": "Paz interior"
+  },
+  {
+    "id": 83,
+    "nombre": "Impatiens blanca",
+    "imagen": "💚",
+    "mensaje": "La impatiens blanca florece donde hay amor",
+    "significado": "Belleza delicada"
+  },
+  {
+    "id": 84,
+    "nombre": "Armeria morada",
+    "imagen": "🪷",
+    "mensaje": "Simple y pura, la armeria morada refleja los mejores momentos",
+    "significado": "Compasión y empatía"
+  },
+  {
+    "id": 85,
+    "nombre": "Anthurium",
+    "imagen": "💚",
+    "mensaje": "Cada pétalo de anthurium guarda un deseo de felicidad para ti",
+    "significado": "Sabiduría y conocimiento"
+  },
+  {
+    "id": 86,
+    "nombre": "Mimosa doble",
+    "imagen": "❤️",
+    "mensaje": "La mimosa doble florece con gratitud en mi vida",
+    "significado": "Devoción y tranquilidad"
+  },
+  {
+    "id": 87,
+    "nombre": "Bergamota",
+    "imagen": "💛",
+    "mensaje": "La bergamota baila con gracia bajo el sol",
+    "significado": "Dignidad y elegancia"
+  },
+  {
+    "id": 88,
+    "nombre": "Magnolia de jardín",
+    "imagen": "🌻",
+    "mensaje": "Abundante en belleza, como esta magnolia de jardín, eres prosperidad",
+    "significado": "Confianza y sinceridad"
+  },
+  {
+    "id": 89,
+    "nombre": "Flor de jade",
+    "imagen": "💚",
+    "mensaje": "Tu presencia, como la flor de jade, trae calma y serenidad",
+    "significado": "Cuidado y fragilidad"
+  },
+  {
+    "id": 90,
+    "nombre": "Dedalera",
+    "imagen": "🌼",
+    "mensaje": "Simple y pura, la dedalera refleja los mejores momentos",
+    "significado": "Amor perfecto"
+  },
+  {
+    "id": 91,
+    "nombre": "Anthurium amarilla",
+    "imagen": "💙",
+    "mensaje": "Como la anthurium amarilla, cada día es una nueva oportunidad",
+    "significado": "Inocencia y pureza"
+  },
+  {
+    "id": 92,
+    "nombre": "Anturio",
+    "imagen": "🩵",
+    "mensaje": "La anturio abre sus pétalos al amor incondicional",
+    "significado": "Cuidado y fragilidad"
+  },
+  {
+    "id": 93,
+    "nombre": "Botón de oro púrpura",
+    "imagen": "🌼",
+    "mensaje": "Fuerte y resiliente, la botón de oro púrpura enfrenta cada desafío",
+    "significado": "Respeto y honor"
+  },
+  {
+    "id": 94,
+    "nombre": "Hierba de San Juan",
+    "imagen": "💛",
+    "mensaje": "La hierba de san juan trae esperanza y nuevos comienzos",
+    "significado": "Amor y pasión"
+  },
+  {
+    "id": 95,
+    "nombre": "Anturio violeta",
+    "imagen": "🌺",
+    "mensaje": "La anturio violeta baila con gracia bajo el sol",
+    "significado": "Amor dulce"
+  },
+  {
+    "id": 96,
+    "nombre": "Canna escarlata",
+    "imagen": "🩵",
+    "mensaje": "Exótica y vibrante, como esta canna escarlata, tu espíritu es único",
+    "significado": "Pureza y renovación"
+  },
+  {
+    "id": 97,
+    "nombre": "Estrelitzia crema",
+    "imagen": "💐",
+    "mensaje": "Exótica y vibrante, como esta estrelitzia crema, tu espíritu es único",
+    "significado": "Imaginación y paz"
+  },
+  {
+    "id": 98,
+    "nombre": "Gladiolo",
+    "imagen": "🩷",
+    "mensaje": "Dulce fragancia de gladiolo, recuerdo de momentos felices",
+    "significado": "Inocencia y pureza"
+  },
+  {
+    "id": 99,
+    "nombre": "Trébol gigante",
+    "imagen": "💙",
+    "mensaje": "La trébol gigante susurra secretos de amor eterno",
+    "significado": "Optimismo y esperanza"
+  },
+  {
+    "id": 100,
+    "nombre": "Botón de oro",
+    "imagen": "🌹",
+    "mensaje": "Suave y delicada, como la botón de oro en la mañana",
+    "significado": "Belleza delicada"
+  },
+  {
+    "id": 101,
+    "nombre": "Anémona coronaria enredadera",
+    "imagen": "🏵️",
+    "mensaje": "Como esta anémona coronaria enredadera, tu presencia es un regalo",
+    "significado": "Nostalgia y recuerdos"
+  },
+  {
+    "id": 102,
+    "nombre": "Buganvilla miniatura",
+    "imagen": "🪷",
+    "mensaje": "La buganvilla miniatura danza al viento, libre y hermosa",
+    "significado": "Valentía y coraje"
+  },
+  {
+    "id": 103,
+    "nombre": "Sempervivum salmón",
+    "imagen": "💙",
+    "mensaje": "Como la sempervivum salmón, tu alegría es contagiosa y luminosa",
+    "significado": "Renacimiento espiritual"
+  },
+  {
+    "id": 104,
+    "nombre": "Diente de león carmesí",
+    "imagen": "🧡",
+    "mensaje": "La diente de león carmesí baila con gracia bajo el sol",
+    "significado": "Belleza fugaz"
+  },
+  {
+    "id": 105,
+    "nombre": "Malva",
+    "imagen": "🌸",
+    "mensaje": "Dulce fragancia de malva, recuerdo de momentos felices",
+    "significado": "Sabiduría y conocimiento"
+  },
+  {
+    "id": 106,
+    "nombre": "Jazmín carmesí",
+    "imagen": "🪷",
+    "mensaje": "Fuerte y resiliente, la jazmín carmesí enfrenta cada desafío",
+    "significado": "Amor secreto"
+  },
+  {
+    "id": 107,
+    "nombre": "Mimosa",
+    "imagen": "🏵️",
+    "mensaje": "Brilla como la mimosa, siempre buscando la luz",
+    "significado": "Amor perfecto"
+  },
+  {
+    "id": 108,
+    "nombre": "Azucena asiática",
+    "imagen": "🪷",
+    "mensaje": "Elegante y majestuosa, la azucena asiática ilumina cada espacio",
+    "significado": "Amistad verdadera"
+  },
+  {
+    "id": 109,
+    "nombre": "Boca de dragón púrpura",
+    "imagen": "💜",
+    "mensaje": "Tu presencia, como la boca de dragón púrpura, trae calma y serenidad",
+    "significado": "Belleza fugaz"
+  },
+  {
+    "id": 110,
+    "nombre": "Canna naranja",
+    "imagen": "🌻",
+    "mensaje": "La canna naranja susurra secretos de amor eterno",
+    "significado": "Amor perfecto"
+  },
+  {
+    "id": 111,
+    "nombre": "Alyssum saxátil marfil",
+    "imagen": "🤍",
+    "mensaje": "Elegante y majestuosa, la alyssum saxátil marfil ilumina cada espacio",
+    "significado": "Energía vital"
+  },
+  {
+    "id": 112,
+    "nombre": "Hedychium",
+    "imagen": "🌼",
+    "mensaje": "La hedychium florece donde hay amor",
+    "significado": "Creatividad e inspiración"
+  },
+  {
+    "id": 113,
+    "nombre": "Estrelitzia perfumada",
+    "imagen": "💛",
+    "mensaje": "Cada pétalo de estrelitzia perfumada guarda un deseo de felicidad para ti",
+    "significado": "Amor secreto"
+  },
+  {
+    "id": 114,
+    "nombre": "Arabis enredadera",
+    "imagen": "🌸",
+    "mensaje": "Rara y extraordinaria, la arabis enredadera es como un tesoro único",
+    "significado": "Confianza y sinceridad"
+  },
+  {
+    "id": 115,
+    "nombre": "Madreselva",
+    "imagen": "🧡",
+    "mensaje": "Radiante y hermosa, la madreselva es un sueño hecho realidad",
+    "significado": "Romance y buena fortuna"
+  },
+  {
+    "id": 116,
+    "nombre": "Jazmín estrellado",
+    "imagen": "💛",
+    "mensaje": "Exótica y vibrante, como esta jazmín estrellado, tu espíritu es único",
+    "significado": "Amor perfecto"
+  },
+  {
+    "id": 117,
+    "nombre": "Aster mediterránea",
+    "imagen": "🪷",
+    "mensaje": "Rara y extraordinaria, la aster mediterránea es como un tesoro único",
+    "significado": "Sabiduría y conocimiento"
+  },
+  {
+    "id": 118,
+    "nombre": "Trébol naranja",
+    "imagen": "🪷",
+    "mensaje": "Cada pétalo de trébol naranja guarda un deseo de felicidad para ti",
+    "significado": "Energía vital"
+  },
+  {
+    "id": 119,
+    "nombre": "Arabis doble",
+    "imagen": "💛",
+    "mensaje": "La arabis doble susurra secretos de amor eterno",
+    "significado": "Romance y buena fortuna"
+  },
+  {
+    "id": 120,
+    "nombre": "Alhelí lavanda",
+    "imagen": "🪷",
+    "mensaje": "La alhelí lavanda susurra secretos de amor eterno",
+    "significado": "Optimismo y esperanza"
+  },
+  {
+    "id": 121,
+    "nombre": "Bergamota lavanda",
+    "imagen": "🪷",
+    "mensaje": "La belleza de la bergamota lavanda trasciende palabras",
+    "significado": "Amor perfecto"
+  },
+  {
+    "id": 122,
+    "nombre": "Flor de cera salmón",
+    "imagen": "🌺",
+    "mensaje": "La belleza de la flor de cera salmón trasciende palabras",
+    "significado": "Devoción y tranquilidad"
+  },
+  {
+    "id": 123,
+    "nombre": "Pensamiento violeta",
+    "imagen": "🌸",
+    "mensaje": "Como esta pensamiento violeta, tu belleza y fuerza crecen cada día",
+    "significado": "Admiración y perfección"
+  },
+  {
+    "id": 124,
+    "nombre": "Frangipani durazno",
+    "imagen": "🌸",
+    "mensaje": "Como la frangipani durazno, cada día es una nueva oportunidad",
+    "significado": "Devoción y tranquilidad"
+  },
+  {
+    "id": 125,
+    "nombre": "Matthiola silvestre",
+    "imagen": "🩵",
+    "mensaje": "Como la matthiola silvestre, tu alegría es contagiosa y luminosa",
+    "significado": "Energía vital"
+  },
+  {
+    "id": 126,
+    "nombre": "Violeta",
+    "imagen": "❤️",
+    "mensaje": "Como esta violeta, tu belleza y fuerza crecen cada día",
+    "significado": "Sabiduría y conocimiento"
+  },
+  {
+    "id": 127,
+    "nombre": "Alyssum",
+    "imagen": "🩵",
+    "mensaje": "Como esta alyssum, tu belleza y fuerza crecen cada día",
+    "significado": "Energía vital"
+  },
+  {
+    "id": 128,
+    "nombre": "Botón de oro alpina",
+    "imagen": "💙",
+    "mensaje": "Radiante y hermosa, la botón de oro alpina es un sueño hecho realidad",
+    "significado": "Amor perfecto"
+  },
+  {
+    "id": 129,
+    "nombre": "Capuchina",
+    "imagen": "🧡",
+    "mensaje": "Fresca y pura, la capuchina es un regalo de la naturaleza",
+    "significado": "Protección y seguridad"
+  },
+  {
+    "id": 130,
+    "nombre": "Cosmos",
+    "imagen": "🌷",
+    "mensaje": "Dulce fragancia de cosmos, recuerdo de momentos felices",
+    "significado": "Optimismo y esperanza"
+  },
+  {
+    "id": 131,
+    "nombre": "Impatiens",
+    "imagen": "🌺",
+    "mensaje": "Cada pétalo de impatiens guarda un deseo de felicidad para ti",
+    "significado": "Valentía y coraje"
+  },
+  {
+    "id": 132,
+    "nombre": "Acacia naranja",
+    "imagen": "🌼",
+    "mensaje": "Radiante y hermosa, la acacia naranja es un sueño hecho realidad",
+    "significado": "Devoción y tranquilidad"
+  },
+  {
+    "id": 133,
+    "nombre": "Verbena",
+    "imagen": "🌻",
+    "mensaje": "Delicada y efímera, como esta verbena, cada momento es precioso",
+    "significado": "Creatividad e inspiración"
+  },
+  {
+    "id": 134,
+    "nombre": "Equinácea tropical",
+    "imagen": "🌼",
+    "mensaje": "Delicada y efímera, como esta equinácea tropical, cada momento es precioso",
+    "significado": "Lujo y belleza exótica"
+  },
+  {
+    "id": 135,
+    "nombre": "Sparaxis lila",
+    "imagen": "🌺",
+    "mensaje": "La dulzura de la sparaxis lila perfuma cada rincón del corazón",
+    "significado": "Amor perfecto"
+  },
+  {
+    "id": 136,
+    "nombre": "Armeria",
+    "imagen": "💚",
+    "mensaje": "Simple y pura, la armeria refleja los mejores momentos",
+    "significado": "Protección y seguridad"
+  },
+  {
+    "id": 137,
+    "nombre": "Dalia escarlata",
+    "imagen": "🌺",
+    "mensaje": "Como la dalia escarlata, tu alegría es contagiosa y luminosa",
+    "significado": "Optimismo y esperanza"
+  },
+  {
+    "id": 138,
+    "nombre": "Clavel",
+    "imagen": "🏵️",
+    "mensaje": "Como la clavel, cada día es una nueva oportunidad",
+    "significado": "Amor perfecto"
+  },
+  {
+    "id": 139,
+    "nombre": "Flor de cera perfumada",
+    "imagen": "🩷",
+    "mensaje": "La flor de cera perfumada baila con gracia bajo el sol",
+    "significado": "Armonía y equilibrio"
+  },
+  {
+    "id": 140,
+    "nombre": "Geranio",
+    "imagen": "🪷",
+    "mensaje": "La geranio te recuerda que resurges hermosa desde lo profundo",
+    "significado": "Protección y seguridad"
+  },
+  {
+    "id": 141,
+    "nombre": "Jengibre rojo",
+    "imagen": "🌺",
+    "mensaje": "La jengibre rojo ilumina el jardín de mi corazón",
+    "significado": "Devoción y tranquilidad"
+  },
+  {
+    "id": 142,
+    "nombre": "Flor de cera blanca",
+    "imagen": "💜",
+    "mensaje": "Como la flor de cera blanca, cada día es una nueva oportunidad",
+    "significado": "Admiración y perfección"
+  },
+  {
+    "id": 143,
+    "nombre": "Begonia",
+    "imagen": "🩷",
+    "mensaje": "Como la begonia, tu alegría es contagiosa y luminosa",
+    "significado": "Devoción y tranquilidad"
+  },
+  {
+    "id": 144,
+    "nombre": "Gardenia",
+    "imagen": "🌸",
+    "mensaje": "La gardenia florece donde hay amor",
+    "significado": "Prosperidad y abundancia"
+  },
+  {
+    "id": 145,
+    "nombre": "Milenrama durazno",
+    "imagen": "❤️",
+    "mensaje": "Como la milenrama durazno, tu alegría es contagiosa y luminosa",
+    "significado": "Armonía y equilibrio"
+  },
+  {
+    "id": 146,
+    "nombre": "Zinnia",
+    "imagen": "🧡",
+    "mensaje": "La zinnia florece donde hay amor",
+    "significado": "Esperanza y nuevos comienzos"
+  },
+  {
+    "id": 147,
+    "nombre": "Campanula",
+    "imagen": "🧡",
+    "mensaje": "Simple y pura, la campanula refleja los mejores momentos",
+    "significado": "Imaginación y paz"
+  },
+  {
+    "id": 148,
+    "nombre": "Scilla violeta",
+    "imagen": "🏵️",
+    "mensaje": "La scilla violeta ilumina el jardín de mi corazón",
+    "significado": "Armonía y equilibrio"
+  },
+  {
+    "id": 149,
+    "nombre": "Anémona coronaria",
+    "imagen": "💙",
+    "mensaje": "Dulce fragancia de anémona coronaria, recuerdo de momentos felices",
+    "significado": "Dignidad y elegancia"
+  },
+  {
+    "id": 150,
+    "nombre": "Hortensia roja",
+    "imagen": "🏵️",
+    "mensaje": "La hortensia roja florece donde hay amor",
+    "significado": "Modestia y fidelidad"
+  },
+  {
+    "id": 151,
+    "nombre": "Sparaxis escarlata",
+    "imagen": "🩷",
+    "mensaje": "La sparaxis escarlata trae esperanza y nuevos comienzos",
+    "significado": "Inocencia y pureza"
+  },
+  {
+    "id": 152,
+    "nombre": "Matthiola amarilla",
+    "imagen": "💙",
+    "mensaje": "Dulce fragancia de matthiola amarilla, recuerdo de momentos felices",
+    "significado": "Respeto y honor"
+  },
+  {
+    "id": 153,
+    "nombre": "Nomeolvides salmón",
+    "imagen": "💜",
+    "mensaje": "Tu presencia, como la nomeolvides salmón, trae calma y serenidad",
+    "significado": "Confianza y sinceridad"
+  },
+  {
+    "id": 154,
+    "nombre": "Hierba de San Juan silvestre",
+    "imagen": "❤️",
+    "mensaje": "Fuerte y resiliente, la hierba de san juan silvestre enfrenta cada desafío",
+    "significado": "Nostalgia y recuerdos"
+  },
+  {
+    "id": 155,
+    "nombre": "Espuela de caballero",
+    "imagen": "🧡",
+    "mensaje": "La espuela de caballero danza al viento, libre y hermosa",
+    "significado": "Fortaleza interior"
+  },
+  {
+    "id": 156,
+    "nombre": "Salvia",
+    "imagen": "💛",
+    "mensaje": "Elegante y majestuosa, la salvia ilumina cada espacio",
+    "significado": "Belleza delicada"
+  },
+  {
+    "id": 157,
+    "nombre": "Impatiens coral",
+    "imagen": "🏵️",
+    "mensaje": "Como la impatiens coral, tu alegría es contagiosa y luminosa",
+    "significado": "Lujo y belleza exótica"
+  },
+  {
+    "id": 158,
+    "nombre": "Amapola rosa",
+    "imagen": "💚",
+    "mensaje": "La amapola rosa te recuerda que resurges hermosa desde lo profundo",
+    "significado": "Compasión y empatía"
+  },
+  {
+    "id": 159,
+    "nombre": "Dedalera lila",
+    "imagen": "🪷",
+    "mensaje": "La dedalera lila abre sus pétalos al amor incondicional",
+    "significado": "Renacimiento espiritual"
+  },
+  {
+    "id": 160,
+    "nombre": "Lirio alpina",
+    "imagen": "🌷",
+    "mensaje": "Como esta lirio alpina, tu belleza y fuerza crecen cada día",
+    "significado": "Prosperidad y abundancia"
+  },
+  {
+    "id": 161,
+    "nombre": "Acacia asiática",
+    "imagen": "🧡",
+    "mensaje": "Brilla como la acacia asiática, siempre buscando la luz",
+    "significado": "Dignidad y elegancia"
+  },
+  {
+    "id": 162,
+    "nombre": "Bromelia coral",
+    "imagen": "🩵",
+    "mensaje": "Como esta bromelia coral, tu belleza y fuerza crecen cada día",
+    "significado": "Energía vital"
+  },
+  {
+    "id": 163,
+    "nombre": "Impatiens amarilla",
+    "imagen": "🌷",
+    "mensaje": "La impatiens amarilla danza al viento, libre y hermosa",
+    "significado": "Dignidad y elegancia"
+  },
+  {
+    "id": 164,
+    "nombre": "Alegría blanca",
+    "imagen": "🌷",
+    "mensaje": "La alegría blanca abre sus pétalos al amor incondicional",
+    "significado": "Optimismo y esperanza"
+  },
+  {
+    "id": 165,
+    "nombre": "Botón de oro blanca",
+    "imagen": "💙",
+    "mensaje": "La botón de oro blanca te recuerda que resurges hermosa desde lo profundo",
+    "significado": "Nostalgia y recuerdos"
+  },
+  {
+    "id": 166,
+    "nombre": "Sempervivum lavanda",
+    "imagen": "🌷",
+    "mensaje": "Rara y extraordinaria, la sempervivum lavanda es como un tesoro único",
+    "significado": "Inocencia y pureza"
+  },
+  {
+    "id": 167,
+    "nombre": "Acacia violeta",
+    "imagen": "🪷",
+    "mensaje": "Radiante y hermosa, la acacia violeta es un sueño hecho realidad",
+    "significado": "Belleza delicada"
+  },
+  {
+    "id": 168,
+    "nombre": "Bergamota durazno",
+    "imagen": "❤️",
+    "mensaje": "La dulzura de la bergamota durazno perfuma cada rincón del corazón",
+    "significado": "Pureza y renovación"
+  },
+  {
+    "id": 169,
+    "nombre": "Sempervivum",
+    "imagen": "🌻",
+    "mensaje": "Exótica y vibrante, como esta sempervivum, tu espíritu es único",
+    "significado": "Amor secreto"
+  },
+  {
+    "id": 170,
+    "nombre": "Primavera",
+    "imagen": "💐",
+    "mensaje": "Abundante en belleza, como esta primavera, eres prosperidad",
+    "significado": "Esperanza y nuevos comienzos"
+  },
+  {
+    "id": 171,
+    "nombre": "Glicinia enredadera",
+    "imagen": "🌻",
+    "mensaje": "Como la glicinia enredadera, tu alegría es contagiosa y luminosa",
+    "significado": "Sabiduría y conocimiento"
+  },
+  {
+    "id": 172,
+    "nombre": "Sempervivum alpina",
+    "imagen": "🤍",
+    "mensaje": "Suave y delicada, como la sempervivum alpina en la mañana",
+    "significado": "Creatividad e inspiración"
+  },
+  {
+    "id": 173,
+    "nombre": "Anturio de montaña",
+    "imagen": "🤍",
+    "mensaje": "Fuerte y resiliente, la anturio de montaña enfrenta cada desafío",
+    "significado": "Romance y buena fortuna"
+  },
+  {
+    "id": 174,
+    "nombre": "Sempervivum coral",
+    "imagen": "🌷",
+    "mensaje": "Delicada y efímera, como esta sempervivum coral, cada momento es precioso",
+    "significado": "Creatividad e inspiración"
+  },
+  {
+    "id": 175,
+    "nombre": "Diente de león",
+    "imagen": "🌻",
+    "mensaje": "Cada pétalo de diente de león guarda un deseo de felicidad para ti",
+    "significado": "Lujo y belleza exótica"
+  },
+  {
+    "id": 176,
+    "nombre": "Fresia naranja",
+    "imagen": "💜",
+    "mensaje": "Como esta fresia naranja, tu belleza y fuerza crecen cada día",
+    "significado": "Belleza fugaz"
+  },
+  {
+    "id": 177,
+    "nombre": "Hierba de San Juan salmón",
+    "imagen": "🩷",
+    "mensaje": "Delicada y efímera, como esta hierba de san juan salmón, cada momento es precioso",
+    "significado": "Ternura y dulzura"
+  },
+  {
+    "id": 178,
+    "nombre": "Acacia",
+    "imagen": "🌺",
+    "mensaje": "Cada pétalo de acacia guarda un deseo de felicidad para ti",
+    "significado": "Compasión y empatía"
+  },
+  {
+    "id": 179,
+    "nombre": "Cerastium mediterránea",
+    "imagen": "💜",
+    "mensaje": "La cerastium mediterránea danza al viento, libre y hermosa",
+    "significado": "Pureza y renovación"
+  },
+  {
+    "id": 180,
+    "nombre": "Anémona coral",
+    "imagen": "❤️",
+    "mensaje": "Tu presencia, como la anémona coral, trae calma y serenidad",
+    "significado": "Belleza delicada"
+  },
+  {
+    "id": 181,
+    "nombre": "Muscari",
+    "imagen": "💛",
+    "mensaje": "La muscari te recuerda que resurges hermosa desde lo profundo",
+    "significado": "Adoración y lealtad"
+  },
+  {
+    "id": 182,
+    "nombre": "Frangipani roja",
+    "imagen": "🌺",
+    "mensaje": "Como esta frangipani roja, tu luz nunca se apaga",
+    "significado": "Prosperidad y abundancia"
+  },
+  {
+    "id": 183,
+    "nombre": "Nomeolvides fucsia",
+    "imagen": "🤍",
+    "mensaje": "Brilla como la nomeolvides fucsia, siempre buscando la luz",
+    "significado": "Nostalgia y recuerdos"
+  },
+  {
+    "id": 184,
+    "nombre": "Anémona coronaria púrpura",
+    "imagen": "🩵",
+    "mensaje": "La anémona coronaria púrpura baila con gracia bajo el sol",
+    "significado": "Belleza fugaz"
+  },
+  {
+    "id": 185,
+    "nombre": "Dalia asiática",
+    "imagen": "🌺",
+    "mensaje": "La dulzura de la dalia asiática perfuma cada rincón del corazón",
+    "significado": "Modestia y fidelidad"
+  },
+  {
+    "id": 186,
+    "nombre": "Bromelia durazno",
+    "imagen": "🪷",
+    "mensaje": "La bromelia durazno ilumina el jardín de mi corazón",
+    "significado": "Amistad verdadera"
+  },
+  {
+    "id": 187,
+    "nombre": "Boca de dragón",
+    "imagen": "🌼",
+    "mensaje": "La dulzura de la boca de dragón perfuma cada rincón del corazón",
+    "significado": "Paz interior"
+  },
+  {
+    "id": 188,
+    "nombre": "Magnolia azul",
+    "imagen": "💐",
+    "mensaje": "Cada pétalo de magnolia azul guarda un deseo de felicidad para ti",
+    "significado": "Alegría y felicidad"
+  },
+  {
+    "id": 189,
+    "nombre": "Anémona azul",
+    "imagen": "🩵",
+    "mensaje": "La belleza de la anémona azul trasciende palabras",
+    "significado": "Amistad verdadera"
+  },
+  {
+    "id": 190,
+    "nombre": "Flor de cera asiática",
+    "imagen": "💛",
+    "mensaje": "Como la flor de cera asiática, tu alegría es contagiosa y luminosa",
+    "significado": "Compasión y empatía"
+  },
+  {
+    "id": 191,
+    "nombre": "Malvarrosa",
+    "imagen": "🧡",
+    "mensaje": "Suave y delicada, como la malvarrosa en la mañana",
+    "significado": "Agradecimiento sincero"
+  },
+  {
+    "id": 192,
+    "nombre": "Muscari violeta",
+    "imagen": "💐",
+    "mensaje": "Rara y extraordinaria, la muscari violeta es como un tesoro único",
+    "significado": "Imaginación y paz"
+  },
+  {
+    "id": 193,
+    "nombre": "Alpinia crema",
+    "imagen": "🩷",
+    "mensaje": "Elegante y majestuosa, la alpinia crema ilumina cada espacio",
+    "significado": "Libertad y independencia"
+  },
+  {
+    "id": 194,
+    "nombre": "Lupino violeta",
+    "imagen": "💛",
+    "mensaje": "Simple y pura, la lupino violeta refleja los mejores momentos",
+    "significado": "Respeto y honor"
+  },
+  {
+    "id": 195,
+    "nombre": "Nomeolvides naranja",
+    "imagen": "❤️",
+    "mensaje": "Como esta nomeolvides naranja, tu luz nunca se apaga",
+    "significado": "Sabiduría y conocimiento"
+  },
+  {
+    "id": 196,
+    "nombre": "Fresia",
+    "imagen": "🌸",
+    "mensaje": "Simple y pura, la fresia refleja los mejores momentos",
+    "significado": "Pureza y renovación"
+  },
+  {
+    "id": 197,
+    "nombre": "Dalia roja",
+    "imagen": "🧡",
+    "mensaje": "La dulzura de la dalia roja perfuma cada rincón del corazón",
+    "significado": "Devoción y tranquilidad"
+  },
+  {
+    "id": 198,
+    "nombre": "Dedalera roja",
+    "imagen": "🌷",
+    "mensaje": "La dulzura de la dedalera roja perfuma cada rincón del corazón",
+    "significado": "Creatividad e inspiración"
+  },
+  {
+    "id": 199,
+    "nombre": "Allium",
+    "imagen": "💐",
+    "mensaje": "La allium te recuerda que resurges hermosa desde lo profundo",
+    "significado": "Protección y seguridad"
+  },
+  {
+    "id": 200,
+    "nombre": "Scilla",
+    "imagen": "🌹",
+    "mensaje": "La scilla trae esperanza y nuevos comienzos",
+    "significado": "Prosperidad y abundancia"
+  },
+  {
+    "id": 201,
+    "nombre": "Orquídea",
+    "imagen": "🌻",
+    "mensaje": "Elegante y majestuosa, la orquídea ilumina cada espacio",
+    "significado": "Nostalgia y recuerdos"
+  },
+  {
+    "id": 202,
+    "nombre": "Violeta marfil",
+    "imagen": "💜",
+    "mensaje": "La violeta marfil baila con gracia bajo el sol",
+    "significado": "Transformación personal"
+  },
+  {
+    "id": 203,
+    "nombre": "Gladiolo roja",
+    "imagen": "🌷",
+    "mensaje": "La gladiolo roja danza al viento, libre y hermosa",
+    "significado": "Fortaleza interior"
+  },
+  {
+    "id": 204,
+    "nombre": "Sempervivum morada",
+    "imagen": "🌷",
+    "mensaje": "Brilla como la sempervivum morada, siempre buscando la luz",
+    "significado": "Esperanza y nuevos comienzos"
+  },
+  {
+    "id": 205,
+    "nombre": "Geranio azul",
+    "imagen": "🤍",
+    "mensaje": "Radiante y hermosa, la geranio azul es un sueño hecho realidad",
+    "significado": "Cuidado y fragilidad"
+  },
+  {
+    "id": 206,
+    "nombre": "Jengibre rojo blanca",
+    "imagen": "🧡",
+    "mensaje": "Radiante y hermosa, la jengibre rojo blanca es un sueño hecho realidad",
+    "significado": "Pureza y renovación"
+  },
+  {
+    "id": 207,
+    "nombre": "Anémona coronaria de montaña",
+    "imagen": "🌸",
+    "mensaje": "Simple y pura, la anémona coronaria de montaña refleja los mejores momentos",
+    "significado": "Esperanza y nuevos comienzos"
+  },
+  {
+    "id": 208,
+    "nombre": "Trébol",
+    "imagen": "❤️",
+    "mensaje": "La trébol florece con gratitud en mi vida",
+    "significado": "Devoción y tranquilidad"
+  },
+  {
+    "id": 209,
+    "nombre": "Azafrán",
+    "imagen": "🧡",
+    "mensaje": "Exótica y vibrante, como esta azafrán, tu espíritu es único",
+    "significado": "Energía vital"
+  },
+  {
+    "id": 210,
+    "nombre": "Estatice",
+    "imagen": "🌷",
+    "mensaje": "Fuerte y resiliente, la estatice enfrenta cada desafío",
+    "significado": "Sabiduría y conocimiento"
+  },
+  {
+    "id": 211,
+    "nombre": "Heliconia",
+    "imagen": "🏵️",
+    "mensaje": "La heliconia abre sus pétalos al amor incondicional",
+    "significado": "Ternura y dulzura"
+  },
+  {
+    "id": 212,
+    "nombre": "Gardenia marfil",
+    "imagen": "🌸",
+    "mensaje": "Como la gardenia marfil, cada día es una nueva oportunidad",
+    "significado": "Modestia y fidelidad"
+  },
+  {
+    "id": 213,
+    "nombre": "Cosmos salmón",
+    "imagen": "🌼",
+    "mensaje": "Dulce fragancia de cosmos salmón, recuerdo de momentos felices",
+    "significado": "Sabiduría y conocimiento"
+  },
+  {
+    "id": 214,
+    "nombre": "Lupino salmón",
+    "imagen": "🌹",
+    "mensaje": "Como la lupino salmón, tu alegría es contagiosa y luminosa",
+    "significado": "Armonía y equilibrio"
+  },
+  {
+    "id": 215,
+    "nombre": "Verbena crema",
+    "imagen": "🤍",
+    "mensaje": "Suave y delicada, como la verbena crema en la mañana",
+    "significado": "Amor y pasión"
+  },
+  {
+    "id": 216,
+    "nombre": "Azucena morada",
+    "imagen": "💚",
+    "mensaje": "La azucena morada danza al viento, libre y hermosa",
+    "significado": "Protección y seguridad"
+  },
+  {
+    "id": 217,
+    "nombre": "Lirio azul",
+    "imagen": "🌼",
+    "mensaje": "La lirio azul susurra secretos de amor eterno",
+    "significado": "Cuidado y fragilidad"
+  },
+  {
+    "id": 218,
+    "nombre": "Crisantemo escarlata",
+    "imagen": "🏵️",
+    "mensaje": "Como esta crisantemo escarlata, tu presencia es un regalo",
+    "significado": "Transformación personal"
+  },
+  {
+    "id": 219,
+    "nombre": "Salvia violeta",
+    "imagen": "🌷",
+    "mensaje": "Delicada y efímera, como esta salvia violeta, cada momento es precioso",
+    "significado": "Modestia y fidelidad"
+  },
+  {
+    "id": 220,
+    "nombre": "Clemátide",
+    "imagen": "💙",
+    "mensaje": "La clemátide florece donde hay amor",
+    "significado": "Libertad y independencia"
+  },
+  {
+    "id": 221,
+    "nombre": "Alyssum saxátil rosa",
+    "imagen": "💛",
+    "mensaje": "Rara y extraordinaria, la alyssum saxátil rosa es como un tesoro único",
+    "significado": "Valentía y coraje"
+  },
+  {
+    "id": 222,
+    "nombre": "Jacinto lila",
+    "imagen": "🧡",
+    "mensaje": "La jacinto lila ilumina el jardín de mi corazón",
+    "significado": "Valentía y coraje"
+  },
+  {
+    "id": 223,
+    "nombre": "Canna",
+    "imagen": "💚",
+    "mensaje": "Como esta canna, tu luz nunca se apaga",
+    "significado": "Inocencia y pureza"
+  },
+  {
+    "id": 224,
+    "nombre": "Gardenia escarlata",
+    "imagen": "💛",
+    "mensaje": "Cada pétalo de gardenia escarlata guarda un deseo de felicidad para ti",
+    "significado": "Renacimiento espiritual"
+  },
+  {
+    "id": 225,
+    "nombre": "Anturio enredadera",
+    "imagen": "🩵",
+    "mensaje": "La anturio enredadera baila con gracia bajo el sol",
+    "significado": "Respeto y honor"
+  },
+  {
+    "id": 226,
+    "nombre": "Azafrán escarlata",
+    "imagen": "🤍",
+    "mensaje": "Delicada y efímera, como esta azafrán escarlata, cada momento es precioso",
+    "significado": "Belleza delicada"
+  },
+  {
+    "id": 227,
+    "nombre": "Alpinia roja",
+    "imagen": "🌹",
+    "mensaje": "La alpinia roja ilumina el jardín de mi corazón",
+    "significado": "Renacimiento espiritual"
+  },
+  {
+    "id": 228,
+    "nombre": "Ixia",
+    "imagen": "🩷",
+    "mensaje": "La ixia baila con gracia bajo el sol",
+    "significado": "Energía vital"
+  },
+  {
+    "id": 229,
+    "nombre": "Arabis",
+    "imagen": "🤍",
+    "mensaje": "La arabis te recuerda que resurges hermosa desde lo profundo",
+    "significado": "Belleza fugaz"
+  },
+  {
+    "id": 230,
+    "nombre": "Anturio gigante",
+    "imagen": "🩵",
+    "mensaje": "La anturio gigante te recuerda que resurges hermosa desde lo profundo",
+    "significado": "Inocencia y pureza"
+  },
+  {
+    "id": 231,
+    "nombre": "Armeria marfil",
+    "imagen": "🌸",
+    "mensaje": "Radiante y hermosa, la armeria marfil es un sueño hecho realidad",
+    "significado": "Nostalgia y recuerdos"
+  },
+  {
+    "id": 232,
+    "nombre": "Pasionaria",
+    "imagen": "🌼",
+    "mensaje": "Exótica y vibrante, como esta pasionaria, tu espíritu es único",
+    "significado": "Admiración y perfección"
+  },
+  {
+    "id": 233,
+    "nombre": "Camelia",
+    "imagen": "💛",
+    "mensaje": "Simple y pura, la camelia refleja los mejores momentos",
+    "significado": "Romance y buena fortuna"
+  },
+  {
+    "id": 234,
+    "nombre": "Geranio fucsia",
+    "imagen": "🩷",
+    "mensaje": "Abundante en belleza, como esta geranio fucsia, eres prosperidad",
+    "significado": "Optimismo y esperanza"
+  },
+  {
+    "id": 235,
+    "nombre": "Jacinto crema",
+    "imagen": "💙",
+    "mensaje": "Simple y pura, la jacinto crema refleja los mejores momentos",
+    "significado": "Armonía y equilibrio"
+  },
+  {
+    "id": 236,
+    "nombre": "Narciso silvestre",
+    "imagen": "🌹",
+    "mensaje": "La narciso silvestre ilumina el jardín de mi corazón",
+    "significado": "Devoción y tranquilidad"
+  },
+  {
+    "id": 237,
+    "nombre": "Azalea marfil",
+    "imagen": "🧡",
+    "mensaje": "La azalea marfil susurra secretos de amor eterno",
+    "significado": "Sabiduría y conocimiento"
+  },
+  {
+    "id": 238,
+    "nombre": "Campanilla salmón",
+    "imagen": "🌸",
+    "mensaje": "La campanilla salmón florece donde hay amor",
+    "significado": "Creatividad e inspiración"
+  },
+  {
+    "id": 239,
+    "nombre": "Geranio perfumado rosa",
+    "imagen": "🌻",
+    "mensaje": "La geranio perfumado rosa florece donde hay amor",
+    "significado": "Energía vital"
+  },
+  {
+    "id": 240,
+    "nombre": "Azalea durazno",
+    "imagen": "🌼",
+    "mensaje": "La azalea durazno abre sus pétalos al amor incondicional",
+    "significado": "Gratitud y aprecio"
+  },
+  {
+    "id": 241,
+    "nombre": "Lirio",
+    "imagen": "🤍",
+    "mensaje": "La lirio ilumina el jardín de mi corazón",
+    "significado": "Libertad y independencia"
+  },
+  {
+    "id": 242,
+    "nombre": "Allium gigante",
+    "imagen": "🧡",
+    "mensaje": "Elegante y majestuosa, la allium gigante ilumina cada espacio",
+    "significado": "Compasión y empatía"
+  },
+  {
+    "id": 243,
+    "nombre": "Anthurium de agua",
+    "imagen": "💙",
+    "mensaje": "La anthurium de agua ilumina el jardín de mi corazón",
+    "significado": "Protección y seguridad"
+  },
+  {
+    "id": 244,
+    "nombre": "Jazmín estrellado salmón",
+    "imagen": "🌺",
+    "mensaje": "La jazmín estrellado salmón florece con gratitud en mi vida",
+    "significado": "Creatividad e inspiración"
+  },
+  {
+    "id": 245,
+    "nombre": "Equinácea",
+    "imagen": "❤️",
+    "mensaje": "Fresca y pura, la equinácea es un regalo de la naturaleza",
+    "significado": "Agradecimiento sincero"
+  },
+  {
+    "id": 246,
+    "nombre": "Campanilla",
+    "imagen": "🌸",
+    "mensaje": "La campanilla danza al viento, libre y hermosa",
+    "significado": "Paz interior"
+  },
+  {
+    "id": 247,
+    "nombre": "Pensamiento",
+    "imagen": "🌹",
+    "mensaje": "Dulce fragancia de pensamiento, recuerdo de momentos felices",
+    "significado": "Transformación personal"
+  },
+  {
+    "id": 248,
+    "nombre": "Pasionaria alpina",
+    "imagen": "🌺",
+    "mensaje": "La pasionaria alpina susurra secretos de amor eterno",
+    "significado": "Inocencia y pureza"
+  },
+  {
+    "id": 249,
+    "nombre": "Alyssum saxátil de jardín",
+    "imagen": "🌻",
+    "mensaje": "Como la alyssum saxátil de jardín, tu alegría es contagiosa y luminosa",
+    "significado": "Agradecimiento sincero"
+  },
+  {
+    "id": 250,
+    "nombre": "Mandevilla lila",
+    "imagen": "🌼",
+    "mensaje": "La mandevilla lila florece donde hay amor",
+    "significado": "Energía vital"
+  },
+  {
+    "id": 251,
+    "nombre": "Azalea gigante",
+    "imagen": "💜",
+    "mensaje": "Exótica y vibrante, como esta azalea gigante, tu espíritu es único",
+    "significado": "Belleza delicada"
+  },
+  {
+    "id": 252,
+    "nombre": "Scilla perfumada",
+    "imagen": "🏵️",
+    "mensaje": "La scilla perfumada baila con gracia bajo el sol",
+    "significado": "Esperanza y nuevos comienzos"
+  },
+  {
+    "id": 253,
+    "nombre": "Cosmos escarlata",
+    "imagen": "🪷",
+    "mensaje": "La cosmos escarlata trae esperanza y nuevos comienzos",
+    "significado": "Admiración y perfección"
+  },
+  {
+    "id": 254,
+    "nombre": "Crisantemo alpina",
+    "imagen": "💙",
+    "mensaje": "Radiante y hermosa, la crisantemo alpina es un sueño hecho realidad",
+    "significado": "Modestia y fidelidad"
+  },
+  {
+    "id": 255,
+    "nombre": "Ixia marfil",
+    "imagen": "🌹",
+    "mensaje": "Dulce fragancia de ixia marfil, recuerdo de momentos felices",
+    "significado": "Dignidad y elegancia"
+  },
+  {
+    "id": 256,
+    "nombre": "Sparaxis violeta",
+    "imagen": "💙",
+    "mensaje": "Cada pétalo de sparaxis violeta guarda un deseo de felicidad para ti",
+    "significado": "Devoción y tranquilidad"
+  },
+  {
+    "id": 257,
+    "nombre": "Azalea escarlata",
+    "imagen": "💚",
+    "mensaje": "La azalea escarlata danza al viento, libre y hermosa",
+    "significado": "Fortaleza interior"
+  },
+  {
+    "id": 258,
+    "nombre": "Cerastium",
+    "imagen": "💜",
+    "mensaje": "Radiante y hermosa, la cerastium es un sueño hecho realidad",
+    "significado": "Compasión y empatía"
+  },
+  {
+    "id": 259,
+    "nombre": "Alegría",
+    "imagen": "💚",
+    "mensaje": "Como esta alegría, tu luz nunca se apaga",
+    "significado": "Modestia y fidelidad"
+  },
+  {
+    "id": 260,
+    "nombre": "Gardenia de jardín",
+    "imagen": "❤️",
+    "mensaje": "La gardenia de jardín susurra secretos de amor eterno",
+    "significado": "Libertad y independencia"
+  },
+  {
+    "id": 261,
+    "nombre": "Anturio perfumada",
+    "imagen": "🩷",
+    "mensaje": "La anturio perfumada florece donde hay amor",
+    "significado": "Amistad verdadera"
+  },
+  {
+    "id": 262,
+    "nombre": "Ginger tropical",
+    "imagen": "🌼",
+    "mensaje": "La ginger tropical danza al viento, libre y hermosa",
+    "significado": "Adoración y lealtad"
+  },
+  {
+    "id": 263,
+    "nombre": "Salvia fucsia",
+    "imagen": "🌻",
+    "mensaje": "Como esta salvia fucsia, tu belleza y fuerza crecen cada día",
+    "significado": "Renacimiento espiritual"
+  },
+  {
+    "id": 264,
+    "nombre": "Anturio miniatura",
+    "imagen": "🧡",
+    "mensaje": "Brilla como la anturio miniatura, siempre buscando la luz",
+    "significado": "Amor y pasión"
+  },
+  {
+    "id": 265,
+    "nombre": "Alpinia de montaña",
+    "imagen": "🏵️",
+    "mensaje": "La alpinia de montaña florece donde hay amor",
+    "significado": "Imaginación y paz"
+  },
+  {
+    "id": 266,
+    "nombre": "Flor de cera",
+    "imagen": "❤️",
+    "mensaje": "Como esta flor de cera, tu presencia es un regalo",
+    "significado": "Belleza fugaz"
+  },
+  {
+    "id": 267,
+    "nombre": "Mandevilla alpina",
+    "imagen": "💐",
+    "mensaje": "La mandevilla alpina ilumina el jardín de mi corazón",
+    "significado": "Energía vital"
+  },
+  {
+    "id": 268,
+    "nombre": "Aubrieta asiática",
+    "imagen": "💙",
+    "mensaje": "Exótica y vibrante, como esta aubrieta asiática, tu espíritu es único",
+    "significado": "Lujo y belleza exótica"
+  },
+  {
+    "id": 269,
+    "nombre": "Violeta rosa",
+    "imagen": "💚",
+    "mensaje": "Como esta violeta rosa, tu presencia es un regalo",
+    "significado": "Valentía y coraje"
+  },
+  {
+    "id": 270,
+    "nombre": "Protea",
+    "imagen": "🏵️",
+    "mensaje": "La protea susurra secretos de amor eterno",
+    "significado": "Dignidad y elegancia"
+  },
+  {
+    "id": 271,
+    "nombre": "Heliconia perfumada",
+    "imagen": "🌻",
+    "mensaje": "La heliconia perfumada abre sus pétalos al amor incondicional",
+    "significado": "Gratitud y aprecio"
+  },
+  {
+    "id": 272,
+    "nombre": "Alyssum escarlata",
+    "imagen": "💜",
+    "mensaje": "La alyssum escarlata susurra secretos de amor eterno",
+    "significado": "Inocencia y pureza"
+  },
+  {
+    "id": 273,
+    "nombre": "Nomeolvides tropical",
+    "imagen": "💜",
+    "mensaje": "La nomeolvides tropical abre sus pétalos al amor incondicional",
+    "significado": "Prosperidad y abundancia"
+  },
+  {
+    "id": 274,
+    "nombre": "Muscari fucsia",
+    "imagen": "🤍",
+    "mensaje": "Dulce fragancia de muscari fucsia, recuerdo de momentos felices",
+    "significado": "Armonía y equilibrio"
+  },
+  {
+    "id": 275,
+    "nombre": "Bergamota morada",
+    "imagen": "🩵",
+    "mensaje": "Brilla como la bergamota morada, siempre buscando la luz",
+    "significado": "Protección y seguridad"
+  },
+  {
+    "id": 276,
+    "nombre": "Anturio del desierto",
+    "imagen": "🪷",
+    "mensaje": "La dulzura de la anturio del desierto perfuma cada rincón del corazón",
+    "significado": "Modestia y fidelidad"
+  },
+  {
+    "id": 277,
+    "nombre": "Flor de cera gigante",
+    "imagen": "💜",
+    "mensaje": "Fresca y pura, la flor de cera gigante es un regalo de la naturaleza",
+    "significado": "Amor secreto"
+  },
+  {
+    "id": 278,
+    "nombre": "Milenrama",
+    "imagen": "🧡",
+    "mensaje": "La dulzura de la milenrama perfuma cada rincón del corazón",
+    "significado": "Amor y pasión"
+  },
+  {
+    "id": 279,
+    "nombre": "Azafrán carmesí",
+    "imagen": "🌼",
+    "mensaje": "Simple y pura, la azafrán carmesí refleja los mejores momentos",
+    "significado": "Amor secreto"
+  },
+  {
+    "id": 280,
+    "nombre": "Equinácea enredadera",
+    "imagen": "💛",
+    "mensaje": "Como esta equinácea enredadera, tu belleza y fuerza crecen cada día",
+    "significado": "Creatividad e inspiración"
+  },
+  {
+    "id": 281,
+    "nombre": "Geranio perfumado naranja",
+    "imagen": "🌺",
+    "mensaje": "Fuerte y resiliente, la geranio perfumado naranja enfrenta cada desafío",
+    "significado": "Romance y buena fortuna"
+  },
+  {
+    "id": 282,
+    "nombre": "Lupino",
+    "imagen": "🌷",
+    "mensaje": "La lupino baila con gracia bajo el sol",
+    "significado": "Armonía y equilibrio"
+  },
+  {
+    "id": 283,
+    "nombre": "Orquídea fucsia",
+    "imagen": "🌷",
+    "mensaje": "La orquídea fucsia baila con gracia bajo el sol",
+    "significado": "Compasión y empatía"
+  },
+  {
+    "id": 284,
+    "nombre": "Mandevilla",
+    "imagen": "🌻",
+    "mensaje": "Radiante y hermosa, la mandevilla es un sueño hecho realidad",
+    "significado": "Protección y seguridad"
+  },
+  {
+    "id": 285,
+    "nombre": "Estrelitzia",
+    "imagen": "🌹",
+    "mensaje": "La dulzura de la estrelitzia perfuma cada rincón del corazón",
+    "significado": "Alegría y felicidad"
+  },
+  {
+    "id": 286,
+    "nombre": "Campanilla de montaña",
+    "imagen": "🌸",
+    "mensaje": "Como la campanilla de montaña, cada día es una nueva oportunidad",
+    "significado": "Romance y buena fortuna"
+  },
+  {
+    "id": 287,
+    "nombre": "Valeriana",
+    "imagen": "💙",
+    "mensaje": "Radiante y hermosa, la valeriana es un sueño hecho realidad",
+    "significado": "Adoración y lealtad"
+  },
+  {
+    "id": 288,
+    "nombre": "Jazmín estrellado mediterránea",
+    "imagen": "🏵️",
+    "mensaje": "Suave y delicada, como la jazmín estrellado mediterránea en la mañana",
+    "significado": "Amistad verdadera"
+  },
+  {
+    "id": 289,
+    "nombre": "Clemátide asiática",
+    "imagen": "🏵️",
+    "mensaje": "La clemátide asiática te recuerda que resurges hermosa desde lo profundo",
+    "significado": "Energía vital"
+  },
+  {
+    "id": 290,
+    "nombre": "Lirio de jardín",
+    "imagen": "🌺",
+    "mensaje": "La lirio de jardín ilumina el jardín de mi corazón",
+    "significado": "Renacimiento espiritual"
+  },
+  {
+    "id": 291,
+    "nombre": "Fresia perfumada",
+    "imagen": "🧡",
+    "mensaje": "La fresia perfumada susurra secretos de amor eterno",
+    "significado": "Belleza delicada"
+  },
+  {
+    "id": 292,
+    "nombre": "Dipladenia",
+    "imagen": "💛",
+    "mensaje": "Radiante y hermosa, la dipladenia es un sueño hecho realidad",
+    "significado": "Gratitud y aprecio"
+  },
+  {
+    "id": 293,
+    "nombre": "Alpinia silvestre",
+    "imagen": "🌼",
+    "mensaje": "La alpinia silvestre te recuerda que resurges hermosa desde lo profundo",
+    "significado": "Alegría y felicidad"
+  },
+  {
+    "id": 294,
+    "nombre": "Ranúnculo doble",
+    "imagen": "🩵",
+    "mensaje": "Delicada y efímera, como esta ranúnculo doble, cada momento es precioso",
+    "significado": "Amor secreto"
+  },
+  {
+    "id": 295,
+    "nombre": "Gladiolo violeta",
+    "imagen": "🌷",
+    "mensaje": "La gladiolo violeta susurra secretos de amor eterno",
+    "significado": "Creatividad e inspiración"
+  },
+  {
+    "id": 296,
+    "nombre": "Amapola azul",
+    "imagen": "💐",
+    "mensaje": "Como esta amapola azul, tu presencia es un regalo",
+    "significado": "Optimismo y esperanza"
+  },
+  {
+    "id": 297,
+    "nombre": "Dipladenia silvestre",
+    "imagen": "💜",
+    "mensaje": "Elegante y majestuosa, la dipladenia silvestre ilumina cada espacio",
+    "significado": "Romance y buena fortuna"
+  },
+  {
+    "id": 298,
+    "nombre": "Dalia carmesí",
+    "imagen": "🌷",
+    "mensaje": "Tu presencia, como la dalia carmesí, trae calma y serenidad",
+    "significado": "Amor secreto"
+  },
+  {
+    "id": 299,
+    "nombre": "Gardenia carmesí",
+    "imagen": "💙",
+    "mensaje": "Dulce fragancia de gardenia carmesí, recuerdo de momentos felices",
+    "significado": "Inocencia y pureza"
+  },
+  {
+    "id": 300,
+    "nombre": "Clemátide durazno",
+    "imagen": "🪷",
+    "mensaje": "Fuerte y resiliente, la clemátide durazno enfrenta cada desafío",
+    "significado": "Fortaleza interior"
+  },
+  {
+    "id": 301,
+    "nombre": "Clavel miniatura",
+    "imagen": "🩵",
+    "mensaje": "Como la clavel miniatura, tu alegría es contagiosa y luminosa",
+    "significado": "Inocencia y pureza"
+  },
+  {
+    "id": 302,
+    "nombre": "Anthurium salmón",
+    "imagen": "💜",
+    "mensaje": "Como esta anthurium salmón, tu belleza y fuerza crecen cada día",
+    "significado": "Romance y buena fortuna"
+  },
+  {
+    "id": 303,
+    "nombre": "Glicinia",
+    "imagen": "🌹",
+    "mensaje": "Exótica y vibrante, como esta glicinia, tu espíritu es único",
+    "significado": "Transformación personal"
+  },
+  {
+    "id": 304,
+    "nombre": "Jacinto fucsia",
+    "imagen": "🌸",
+    "mensaje": "La jacinto fucsia te recuerda que resurges hermosa desde lo profundo",
+    "significado": "Prosperidad y abundancia"
+  },
+  {
+    "id": 305,
+    "nombre": "Gladiolo asiática",
+    "imagen": "💙",
+    "mensaje": "La gladiolo asiática susurra secretos de amor eterno",
+    "significado": "Adoración y lealtad"
+  },
+  {
+    "id": 306,
+    "nombre": "Alyssum lila",
+    "imagen": "💙",
+    "mensaje": "La alyssum lila te recuerda que resurges hermosa desde lo profundo",
+    "significado": "Amor secreto"
+  },
+  {
+    "id": 307,
+    "nombre": "Canna silvestre",
+    "imagen": "🤍",
+    "mensaje": "Abundante en belleza, como esta canna silvestre, eres prosperidad",
+    "significado": "Respeto y honor"
+  },
+  {
+    "id": 308,
+    "nombre": "Muscari coral",
+    "imagen": "🌺",
+    "mensaje": "La muscari coral florece donde hay amor",
+    "significado": "Romance y buena fortuna"
+  },
+  {
+    "id": 309,
+    "nombre": "Hortensia",
+    "imagen": "🌷",
+    "mensaje": "La hortensia baila con gracia bajo el sol",
+    "significado": "Optimismo y esperanza"
+  },
+  {
+    "id": 310,
+    "nombre": "Alpinia mediterránea",
+    "imagen": "🌺",
+    "mensaje": "Delicada y efímera, como esta alpinia mediterránea, cada momento es precioso",
+    "significado": "Imaginación y paz"
+  },
+  {
+    "id": 311,
+    "nombre": "Glicinia escarlata",
+    "imagen": "🧡",
+    "mensaje": "La glicinia escarlata florece con gratitud en mi vida",
+    "significado": "Lujo y belleza exótica"
+  },
+  {
+    "id": 312,
+    "nombre": "Alegría tropical",
+    "imagen": "🌻",
+    "mensaje": "Brilla como la alegría tropical, siempre buscando la luz",
+    "significado": "Lujo y belleza exótica"
+  },
+  {
+    "id": 313,
+    "nombre": "Azucena",
+    "imagen": "🌷",
+    "mensaje": "Tu presencia, como la azucena, trae calma y serenidad",
+    "significado": "Ternura y dulzura"
+  },
+  {
+    "id": 314,
+    "nombre": "Margarita silvestre",
+    "imagen": "🪷",
+    "mensaje": "Como esta margarita silvestre, tu presencia es un regalo",
+    "significado": "Fortaleza interior"
+  },
+  {
+    "id": 315,
+    "nombre": "Verbena asiática",
+    "imagen": "💙",
+    "mensaje": "La verbena asiática trae esperanza y nuevos comienzos",
+    "significado": "Modestia y fidelidad"
+  },
+  {
+    "id": 316,
+    "nombre": "Geranio perfumada",
+    "imagen": "🌼",
+    "mensaje": "La geranio perfumada florece donde hay amor",
+    "significado": "Protección y seguridad"
+  },
+  {
+    "id": 317,
+    "nombre": "Lirio carmesí",
+    "imagen": "💐",
+    "mensaje": "Cada pétalo de lirio carmesí guarda un deseo de felicidad para ti",
+    "significado": "Amor dulce"
+  },
+  {
+    "id": 318,
+    "nombre": "Nomeolvides carmesí",
+    "imagen": "🌹",
+    "mensaje": "Como esta nomeolvides carmesí, tu luz nunca se apaga",
+    "significado": "Admiración y perfección"
+  },
+  {
+    "id": 319,
+    "nombre": "Boca de dragón lila",
+    "imagen": "🌺",
+    "mensaje": "Brilla como la boca de dragón lila, siempre buscando la luz",
+    "significado": "Amistad verdadera"
+  },
+  {
+    "id": 320,
+    "nombre": "Amapola de California",
+    "imagen": "🌷",
+    "mensaje": "Brilla como la amapola de california, siempre buscando la luz",
+    "significado": "Confianza y sinceridad"
+  },
+  {
+    "id": 321,
+    "nombre": "Azalea de montaña",
+    "imagen": "🌸",
+    "mensaje": "Como esta azalea de montaña, tu presencia es un regalo",
+    "significado": "Valentía y coraje"
+  },
+  {
+    "id": 322,
+    "nombre": "Canna crema",
+    "imagen": "🏵️",
+    "mensaje": "Abundante en belleza, como esta canna crema, eres prosperidad",
+    "significado": "Pureza y renovación"
+  },
+  {
+    "id": 323,
+    "nombre": "Flor de cera azul",
+    "imagen": "💚",
+    "mensaje": "La flor de cera azul baila con gracia bajo el sol",
+    "significado": "Valentía y coraje"
+  },
+  {
+    "id": 324,
+    "nombre": "Lirio amarilla",
+    "imagen": "💛",
+    "mensaje": "Fresca y pura, la lirio amarilla es un regalo de la naturaleza",
+    "significado": "Agradecimiento sincero"
+  },
+  {
+    "id": 325,
+    "nombre": "Anémona durazno",
+    "imagen": "❤️",
+    "mensaje": "Como esta anémona durazno, tu belleza y fuerza crecen cada día",
+    "significado": "Amistad verdadera"
+  },
+  {
+    "id": 326,
+    "nombre": "Ranúnculo coral",
+    "imagen": "💜",
+    "mensaje": "Fuerte y resiliente, la ranúnculo coral enfrenta cada desafío",
+    "significado": "Amistad verdadera"
+  },
+  {
+    "id": 327,
+    "nombre": "Peonía salmón",
+    "imagen": "💜",
+    "mensaje": "Suave y delicada, como la peonía salmón en la mañana",
+    "significado": "Amor secreto"
+  },
+  {
+    "id": 328,
+    "nombre": "Heliconia de montaña",
+    "imagen": "🧡",
+    "mensaje": "Como esta heliconia de montaña, tu belleza y fuerza crecen cada día",
+    "significado": "Energía vital"
+  },
+  {
+    "id": 329,
+    "nombre": "Anthurium asiática",
+    "imagen": "❤️",
+    "mensaje": "Como la anthurium asiática, cada día es una nueva oportunidad",
+    "significado": "Ternura y dulzura"
+  },
+  {
+    "id": 330,
+    "nombre": "Anémona coronaria violeta",
+    "imagen": "💙",
+    "mensaje": "Fuerte y resiliente, la anémona coronaria violeta enfrenta cada desafío",
+    "significado": "Armonía y equilibrio"
+  },
+  {
+    "id": 331,
+    "nombre": "Iris carmesí",
+    "imagen": "🩵",
+    "mensaje": "Radiante y hermosa, la iris carmesí es un sueño hecho realidad",
+    "significado": "Esperanza y nuevos comienzos"
+  },
+  {
+    "id": 332,
+    "nombre": "Clemátide violeta",
+    "imagen": "🤍",
+    "mensaje": "Fresca y pura, la clemátide violeta es un regalo de la naturaleza",
+    "significado": "Agradecimiento sincero"
+  },
+  {
+    "id": 333,
+    "nombre": "Bergamota amarilla",
+    "imagen": "🌻",
+    "mensaje": "Radiante y hermosa, la bergamota amarilla es un sueño hecho realidad",
+    "significado": "Energía vital"
+  },
+  {
+    "id": 334,
+    "nombre": "Fresia del desierto",
+    "imagen": "💜",
+    "mensaje": "Como esta fresia del desierto, tu belleza y fuerza crecen cada día",
+    "significado": "Imaginación y paz"
+  },
+  {
+    "id": 335,
+    "nombre": "Hortensia rosa",
+    "imagen": "🤍",
+    "mensaje": "Cada pétalo de hortensia rosa guarda un deseo de felicidad para ti",
+    "significado": "Armonía y equilibrio"
+  },
+  {
+    "id": 336,
+    "nombre": "Azucena fucsia",
+    "imagen": "🌹",
+    "mensaje": "La azucena fucsia te recuerda que resurges hermosa desde lo profundo",
+    "significado": "Belleza delicada"
+  },
+  {
+    "id": 337,
+    "nombre": "Magnolia de montaña",
+    "imagen": "🤍",
+    "mensaje": "Cada pétalo de magnolia de montaña guarda un deseo de felicidad para ti",
+    "significado": "Cuidado y fragilidad"
+  },
+  {
+    "id": 338,
+    "nombre": "Pasionaria del desierto",
+    "imagen": "🌻",
+    "mensaje": "Exótica y vibrante, como esta pasionaria del desierto, tu espíritu es único",
+    "significado": "Compasión y empatía"
+  },
+  {
+    "id": 339,
+    "nombre": "Frangipani",
+    "imagen": "🤍",
+    "mensaje": "Delicada y efímera, como esta frangipani, cada momento es precioso",
+    "significado": "Cuidado y fragilidad"
+  },
+  {
+    "id": 340,
+    "nombre": "Primavera durazno",
+    "imagen": "❤️",
+    "mensaje": "La primavera durazno te recuerda que resurges hermosa desde lo profundo",
+    "significado": "Romance y buena fortuna"
+  },
+  {
+    "id": 341,
+    "nombre": "Boca de dragón amarilla",
+    "imagen": "💙",
+    "mensaje": "Tu presencia, como la boca de dragón amarilla, trae calma y serenidad",
+    "significado": "Confianza y sinceridad"
+  },
+  {
+    "id": 342,
+    "nombre": "Alyssum saxátil fucsia",
+    "imagen": "🌻",
+    "mensaje": "Rara y extraordinaria, la alyssum saxátil fucsia es como un tesoro único",
+    "significado": "Esperanza y nuevos comienzos"
+  },
+  {
+    "id": 343,
+    "nombre": "Bergamota roja",
+    "imagen": "❤️",
+    "mensaje": "Simple y pura, la bergamota roja refleja los mejores momentos",
+    "significado": "Esperanza y nuevos comienzos"
+  },
+  {
+    "id": 344,
+    "nombre": "Lilas morada",
+    "imagen": "🌹",
+    "mensaje": "La lilas morada abre sus pétalos al amor incondicional",
+    "significado": "Protección y seguridad"
+  },
+  {
+    "id": 345,
+    "nombre": "Caléndula de agua",
+    "imagen": "💜",
+    "mensaje": "Rara y extraordinaria, la caléndula de agua es como un tesoro único",
+    "significado": "Gratitud y aprecio"
+  },
+  {
+    "id": 346,
+    "nombre": "Fresia rosa",
+    "imagen": "🌻",
+    "mensaje": "Suave y delicada, como la fresia rosa en la mañana",
+    "significado": "Protección y seguridad"
+  },
+  {
+    "id": 347,
+    "nombre": "Jazmín",
+    "imagen": "🌸",
+    "mensaje": "La jazmín ilumina el jardín de mi corazón",
+    "significado": "Fortaleza interior"
+  },
+  {
+    "id": 348,
+    "nombre": "Allium naranja",
+    "imagen": "🩵",
+    "mensaje": "La dulzura de la allium naranja perfuma cada rincón del corazón",
+    "significado": "Belleza delicada"
+  },
+  {
+    "id": 349,
+    "nombre": "Violeta crema",
+    "imagen": "🪷",
+    "mensaje": "Cada pétalo de violeta crema guarda un deseo de felicidad para ti",
+    "significado": "Modestia y fidelidad"
+  },
+  {
+    "id": 350,
+    "nombre": "Lilas miniatura",
+    "imagen": "🪷",
+    "mensaje": "La belleza de la lilas miniatura trasciende palabras",
+    "significado": "Transformación personal"
+  },
+  {
+    "id": 351,
+    "nombre": "Ranúnculo violeta",
+    "imagen": "🌹",
+    "mensaje": "Brilla como la ranúnculo violeta, siempre buscando la luz",
+    "significado": "Admiración y perfección"
+  },
+  {
+    "id": 352,
+    "nombre": "Sedum mediterránea",
+    "imagen": "🌷",
+    "mensaje": "Exótica y vibrante, como esta sedum mediterránea, tu espíritu es único",
+    "significado": "Alegría y felicidad"
+  },
+  {
+    "id": 353,
+    "nombre": "Acacia perfumada",
+    "imagen": "🌸",
+    "mensaje": "Como esta acacia perfumada, tu belleza y fuerza crecen cada día",
+    "significado": "Belleza delicada"
+  },
+  {
+    "id": 354,
+    "nombre": "Nicotiana",
+    "imagen": "💛",
+    "mensaje": "Suave y delicada, como la nicotiana en la mañana",
+    "significado": "Amor y pasión"
+  },
+  {
+    "id": 355,
+    "nombre": "Nomeolvides morada",
+    "imagen": "🌸",
+    "mensaje": "Fresca y pura, la nomeolvides morada es un regalo de la naturaleza",
+    "significado": "Lujo y belleza exótica"
+  },
+  {
+    "id": 356,
+    "nombre": "Lirio blanca",
+    "imagen": "🧡",
+    "mensaje": "Elegante y majestuosa, la lirio blanca ilumina cada espacio",
+    "significado": "Inocencia y pureza"
+  },
+  {
+    "id": 357,
+    "nombre": "Glicinia lavanda",
+    "imagen": "💐",
+    "mensaje": "Rara y extraordinaria, la glicinia lavanda es como un tesoro único",
+    "significado": "Alegría y felicidad"
+  },
+  {
+    "id": 358,
+    "nombre": "Valeriana durazno",
+    "imagen": "🌹",
+    "mensaje": "La dulzura de la valeriana durazno perfuma cada rincón del corazón",
+    "significado": "Prosperidad y abundancia"
+  },
+  {
+    "id": 359,
+    "nombre": "Caléndula",
+    "imagen": "🩵",
+    "mensaje": "La caléndula florece con gratitud en mi vida",
+    "significado": "Fortaleza interior"
+  },
+  {
+    "id": 360,
+    "nombre": "Primavera silvestre",
+    "imagen": "💐",
+    "mensaje": "La primavera silvestre florece donde hay amor",
+    "significado": "Creatividad e inspiración"
+  },
+  {
+    "id": 361,
+    "nombre": "Alpinia fucsia",
+    "imagen": "🏵️",
+    "mensaje": "Como esta alpinia fucsia, tu belleza y fuerza crecen cada día",
+    "significado": "Pureza y renovación"
+  },
+  {
+    "id": 362,
+    "nombre": "Buganvilla tropical",
+    "imagen": "🌸",
+    "mensaje": "Brilla como la buganvilla tropical, siempre buscando la luz",
+    "significado": "Optimismo y esperanza"
+  },
+  {
+    "id": 363,
+    "nombre": "Heliconia carmesí",
+    "imagen": "🩵",
+    "mensaje": "Tu presencia, como la heliconia carmesí, trae calma y serenidad",
+    "significado": "Inocencia y pureza"
+  },
+  {
+    "id": 364,
+    "nombre": "Protea amarilla",
+    "imagen": "❤️",
+    "mensaje": "Simple y pura, la protea amarilla refleja los mejores momentos",
+    "significado": "Ternura y dulzura"
+  },
+  {
+    "id": 365,
+    "nombre": "Begonia azul",
+    "imagen": "🪷",
+    "mensaje": "Exótica y vibrante, como esta begonia azul, tu espíritu es único",
+    "significado": "Modestia y fidelidad"
+  }
+]
