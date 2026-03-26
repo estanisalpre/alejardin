@@ -75,30 +75,6 @@ jobs:
           path: coverage/
           retention-days: 7
 
-      - name: Comment PR with test results
-        if: github.event_name == 'pull_request' && always()
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const fs = require('fs');
-            let comment = '## 🧪 Test Results\n\n';
-
-            try {
-              // Leer resultados si existen
-              comment += '✅ Tests completed. Check artifacts for detailed reports.\n\n';
-              comment += '- Unit Tests: Coverage report available\n';
-              comment += '- E2E Tests: Playwright report available\n';
-            } catch (error) {
-              comment += '⚠️ Unable to read test results\n';
-            }
-
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: comment
-            });
-
   build-check:
     name: Build Check
     runs-on: ubuntu-latest
