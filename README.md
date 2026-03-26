@@ -406,6 +406,8 @@ git push origin main
 - ✅ **CDN global** (rápido en todo el mundo)
 - ✅ **Deploy Previews** automáticos en PRs
 
+> **📸 Nota sobre imágenes**: El proyecto está configurado con `images.unoptimized: true` en `next.config.ts` para que las imágenes se sirvan directamente sin procesamiento. Esto es necesario porque Netlify no soporta Next.js Image Optimization en el plan gratuito. Las imágenes se sirven desde `/assets/flowers/` como archivos estáticos optimizados.
+
 ### Vercel (Alternativa)
 
 ```bash
