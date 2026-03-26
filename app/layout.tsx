@@ -1,5 +1,12 @@
-import type { Metadata } from "next";
-import "./globals.css";
+import type { Metadata, Viewport } from "next";
+import "@/app/globals.css";
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  themeColor: "#FFE4E9",
+};
 
 export const metadata: Metadata = {
   title: "Alejardín 🌸 - Una flor nueva cada día",
@@ -18,8 +25,6 @@ export const metadata: Metadata = {
   creator: "Alejardín",
   publisher: "Alejardín",
   manifest: "/manifest.json",
-  themeColor: "#FFE4E9",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=5",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",

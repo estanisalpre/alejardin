@@ -2,7 +2,6 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    // Permitir imágenes locales y de Pexels
     remotePatterns: [
       {
         protocol: "https",

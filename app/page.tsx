@@ -1,13 +1,16 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { FlowerCard } from "@/components/FlowerCard";
-import { GardenGrid } from "@/components/GardenGrid";
-import { Button } from "@/components/Button";
-import { ScrollToTop } from "@/components/ScrollToTop";
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
-import { PWAInstaller } from "@/components/PWAInstaller";
+import {
+  FlowerCard,
+  GardenGrid,
+  Button,
+  ScrollToTop,
+  Navbar,
+  Footer,
+  PWAInstaller,
+  LoadingScreen,
+} from "@/components";
 import { flowers } from "@/data/flowers";
 import { getDayFlowerMap, saveFlowerOpened, canOpenToday } from "@/lib/storage";
 import type { Flower, DayFlowerMap } from "@/interfaces";
@@ -20,9 +23,19 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    const startTime = Date.now();
+    const minLoadingTime = 3000; // 3 segundos mínimo
+
     const dayMap = getDayFlowerMap();
     setDayFlowerMap(dayMap);
-    setIsLoading(false);
+
+    // Esperar al menos 3 segundos antes de ocultar el loading
+    const elapsedTime = Date.now() - startTime;
+    const remainingTime = Math.max(0, minLoadingTime - elapsedTime);
+
+    setTimeout(() => {
+      setIsLoading(false);
+    }, remainingTime);
   }, []);
 
   const openDailyFlower = () => {
@@ -76,11 +89,7 @@ export default function Home() {
   };
 
   if (isLoading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-soft-pink via-lavender to-sky-soft">
-        <div className="text-2xl text-gray-600">Cargando...</div>
-      </div>
-    );
+    return <LoadingScreen />;
   }
 
   return (

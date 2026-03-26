@@ -5,7 +5,6 @@ export function GardenGrid({
   dayFlowerMap,
   onFlowerClick,
 }: GardenGridProps) {
-  // Crear array de 365 días
   const days = Array.from({ length: 365 }, (_, i) => i + 1);
 
   return (
