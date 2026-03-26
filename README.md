@@ -425,12 +425,12 @@ interface Flower {
 ```typescript
 // localStorage keys
 {
-  "mi-jardin-day-flowers": {    // Mapeo día → flor ID
+  "alejardin-day-flowers": {    // Mapeo día → flor ID
     47: 12,                      // Día 47 tiene flor #12
     203: 5,                      // Día 203 tiene flor #5
     ...
   },
-  "mi-jardin-last-date": "2026-03-26"  // Última fecha de apertura
+  "alejardin-last-date": "2026-03-26"  // Última fecha de apertura
 }
 ```
 

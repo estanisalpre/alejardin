@@ -1,8 +1,8 @@
 import { DayFlowerMap, Milestone } from "@/interfaces";
 
-const STORAGE_KEY_DAY_FLOWERS = "mi-jardin-day-flowers";
-const STORAGE_KEY_LAST_DATE = "mi-jardin-last-date";
-const STORAGE_KEY_MILESTONES = "mi-jardin-milestones";
+const STORAGE_KEY_DAY_FLOWERS = "alejardin-day-flowers";
+const STORAGE_KEY_LAST_DATE = "alejardin-last-date";
+const STORAGE_KEY_MILESTONES = "alejardin-milestones";
 
 export const MILESTONES: Omit<Milestone, "unlocked">[] = [
   {
