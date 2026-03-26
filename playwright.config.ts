@@ -9,16 +9,20 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   reporter: process.env.CI ? "github" : "html",
   use: {
-    baseURL: "http://localhost:3001",
+    baseURL: "http://localhost:3000",
     trace: "on-first-retry",
     screenshot: "only-on-failure",
   },
-  webServer: {
-    command: "pnpm build && pnpm start",
-    url: "http://localhost:3001",
-    timeout: 120 * 1000,
-    reuseExistingServer: !process.env.CI,
-  },
+  webServer: process.env.CI
+    ? undefined
+    : {
+        command: "pnpm dev",
+        url: "http://localhost:3000",
+        timeout: 120 * 1000,
+        reuseExistingServer: true,
+        stdout: "pipe",
+        stderr: "pipe",
+      },
   projects: [
     {
       name: "chromium",

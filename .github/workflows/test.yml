@@ -54,6 +54,17 @@ jobs:
         env:
           NEXT_PUBLIC_DEV_MODE: false
 
+      - name: Start production server
+        run: |
+          echo "Starting Next.js server..."
+          pnpm start &
+          sleep 5
+          echo "Waiting for server to be ready..."
+          pnpm exec wait-on http://localhost:3000 -t 60000
+          echo "Server is ready!"
+        env:
+          CI: true
+
       - name: Run E2E tests
         run: pnpm test:e2e
         env:
