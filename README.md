@@ -381,7 +381,32 @@ NEXT_PUBLIC_DEV_MODE=false     # true para testing sin límites
 
 ## 🚀 Despliegue
 
-### Vercel (Recomendado)
+### Netlify (Recomendado) 🌐
+
+La forma más fácil de desplegar **Alejardín** y hacerla accesible desde cualquier celular:
+
+```bash
+# 1. Subir código a GitHub
+git add .
+git commit -m "feat: ready for deployment"
+git push origin main
+
+# 2. Deploy en Netlify (guía completa)
+# Ver: DEPLOY_NETLIFY.md
+```
+
+📖 **Guía Completa de Deploy**: [DEPLOY_NETLIFY.md](DEPLOY_NETLIFY.md)
+
+**Características de Netlify**:
+
+- ✅ **100% Gratis** (100 GB bandwidth/mes)
+- ✅ **HTTPS automático** (certificado SSL gratis)
+- ✅ **Deploy automático** desde GitHub
+- ✅ **PWA optimizado** con plugin de Next.js
+- ✅ **CDN global** (rápido en todo el mundo)
+- ✅ **Deploy Previews** automáticos en PRs
+
+### Vercel (Alternativa)
 
 ```bash
 # 1. Instalar Vercel CLI
@@ -396,7 +421,6 @@ vercel --prod
 
 ### Otras Plataformas
 
-- **Netlify**: Compatible con builds de Next.js
 - **Railway**: Soporte para pnpm
 - **Cloudflare Pages**: Compatible con App Router
 - **Docker**: Incluir Dockerfile para contenedorización
