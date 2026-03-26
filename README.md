@@ -476,7 +476,7 @@ interface Flower {
 Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
 
 ---
- 
+
 **Versión**: 1.0.0  
 **Última actualización**: Marzo 2026
 
