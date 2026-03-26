@@ -1,10 +1,3 @@
-/**
- * Barrel export para imágenes de flores
- * Este archivo se genera automáticamente
- * 
- * Generado con: python update_flower_images.py
- */
-
 export const flowerImages: Record<number, string> = {
   1: "/assets/flowers/001-rosa.jpg",
   2: "/assets/flowers/002-tulipan.jpg",
@@ -373,20 +366,10 @@ export const flowerImages: Record<number, string> = {
   365: "/assets/flowers/365-begonia-azul.jpg",
 };
 
-/**
- * Obtiene la URL de la imagen de una flor por ID
- * @param flowerId - ID de la flor (1-365)
- * @returns URL de la imagen o undefined si no existe
- */
 export function getFlowerImage(flowerId: number): string | undefined {
   return flowerImages[flowerId];
 }
 
-/**
- * Verifica si existe una imagen para una flor
- * @param flowerId - ID de la flor
- * @returns true si existe la imagen
- */
 export function hasFlowerImage(flowerId: number): boolean {
   return flowerId in flowerImages;
 }
