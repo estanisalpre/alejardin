@@ -20,7 +20,6 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Load saved data
     const dayMap = getDayFlowerMap();
     setDayFlowerMap(dayMap);
     setIsLoading(false);
@@ -33,10 +32,7 @@ export default function Home() {
       return;
     }
 
-    // Get unlocked flower IDs
     const unlockedIds = Object.values(dayFlowerMap);
-
-    // Get random flower from remaining ones
     const availableFlowers = flowers.filter((f) => !unlockedIds.includes(f.id));
 
     if (availableFlowers.length === 0) {
@@ -47,13 +43,11 @@ export default function Home() {
     const randomFlower =
       availableFlowers[Math.floor(Math.random() * availableFlowers.length)];
 
-    // Save to localStorage and update state
     saveFlowerOpened(randomFlower.id);
     const newDayMap = getDayFlowerMap();
     setDayFlowerMap(newDayMap);
     setCurrentFlower(randomFlower);
 
-    // Check milestones
     const totalUnlocked = Object.keys(newDayMap).length;
     if (totalUnlocked === 7) {
       setTimeout(() => setMessage("¡Primera semana completa! 🌟"), 1000);
