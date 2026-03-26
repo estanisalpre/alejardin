@@ -1,4 +1,4 @@
-export type { Flower, DayFlowerMap } from "./data";
+export type { Flower, DayFlowerMap, Milestone } from "./data";
 
 export type {
   ButtonProps,

@@ -3,6 +3,7 @@ export { FlowerCard } from "./FlowerCard";
 export { Footer } from "./Footer";
 export { GardenGrid } from "./GardenGrid";
 export { LoadingScreen } from "./LoadingScreen";
+export { MilestonesView } from "./MilestonesView";
 export { Navbar } from "./Navbar";
 export { PWAInstaller } from "./PWAInstaller";
 export { ScrollToTop } from "./ScrollToTop";

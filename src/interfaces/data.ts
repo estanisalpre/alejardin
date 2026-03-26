@@ -14,3 +14,12 @@ export interface Flower {
 export interface DayFlowerMap {
   [day: number]: number; // day (1-365) -> flowerId
 }
+
+export interface Milestone {
+  id: number;
+  flowers: number; 
+  title: string;
+  emoji: string;
+  description: string;
+  unlocked: boolean;
+}
